@@ -1,0 +1,15 @@
+C:\Users\Nijat\OneDrive\Desktop\Ali\MethodsIntro\MethodsIntro\bin\Debug\net7.0\MethodsIntro.exe
+C:\Users\Nijat\OneDrive\Desktop\Ali\MethodsIntro\MethodsIntro\bin\Debug\net7.0\MethodsIntro.deps.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\MethodsIntro\MethodsIntro\bin\Debug\net7.0\MethodsIntro.runtimeconfig.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\MethodsIntro\MethodsIntro\bin\Debug\net7.0\MethodsIntro.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\MethodsIntro\MethodsIntro\bin\Debug\net7.0\MethodsIntro.pdb
+C:\Users\Nijat\OneDrive\Desktop\Ali\MethodsIntro\MethodsIntro\obj\Debug\net7.0\MethodsIntro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nijat\OneDrive\Desktop\Ali\MethodsIntro\MethodsIntro\obj\Debug\net7.0\MethodsIntro.AssemblyInfoInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\MethodsIntro\MethodsIntro\obj\Debug\net7.0\MethodsIntro.AssemblyInfo.cs
+C:\Users\Nijat\OneDrive\Desktop\Ali\MethodsIntro\MethodsIntro\obj\Debug\net7.0\MethodsIntro.csproj.CoreCompileInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\MethodsIntro\MethodsIntro\obj\Debug\net7.0\MethodsIntro.sourcelink.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\MethodsIntro\MethodsIntro\obj\Debug\net7.0\MethodsIntro.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\MethodsIntro\MethodsIntro\obj\Debug\net7.0\refint\MethodsIntro.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\MethodsIntro\MethodsIntro\obj\Debug\net7.0\MethodsIntro.pdb
+C:\Users\Nijat\OneDrive\Desktop\Ali\MethodsIntro\MethodsIntro\obj\Debug\net7.0\MethodsIntro.genruntimeconfig.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\MethodsIntro\MethodsIntro\obj\Debug\net7.0\ref\MethodsIntro.dll
