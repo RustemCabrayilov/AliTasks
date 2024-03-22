@@ -1,0 +1,15 @@
+C:\Users\Nijat\OneDrive\Desktop\Ali\OOPIntro\OOPIntro\bin\Debug\net7.0\OOPIntro.exe
+C:\Users\Nijat\OneDrive\Desktop\Ali\OOPIntro\OOPIntro\bin\Debug\net7.0\OOPIntro.deps.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\OOPIntro\OOPIntro\bin\Debug\net7.0\OOPIntro.runtimeconfig.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\OOPIntro\OOPIntro\bin\Debug\net7.0\OOPIntro.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\OOPIntro\OOPIntro\bin\Debug\net7.0\OOPIntro.pdb
+C:\Users\Nijat\OneDrive\Desktop\Ali\OOPIntro\OOPIntro\obj\Debug\net7.0\OOPIntro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nijat\OneDrive\Desktop\Ali\OOPIntro\OOPIntro\obj\Debug\net7.0\OOPIntro.AssemblyInfoInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\OOPIntro\OOPIntro\obj\Debug\net7.0\OOPIntro.AssemblyInfo.cs
+C:\Users\Nijat\OneDrive\Desktop\Ali\OOPIntro\OOPIntro\obj\Debug\net7.0\OOPIntro.csproj.CoreCompileInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\OOPIntro\OOPIntro\obj\Debug\net7.0\OOPIntro.sourcelink.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\OOPIntro\OOPIntro\obj\Debug\net7.0\OOPIntro.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\OOPIntro\OOPIntro\obj\Debug\net7.0\refint\OOPIntro.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\OOPIntro\OOPIntro\obj\Debug\net7.0\OOPIntro.pdb
+C:\Users\Nijat\OneDrive\Desktop\Ali\OOPIntro\OOPIntro\obj\Debug\net7.0\OOPIntro.genruntimeconfig.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\OOPIntro\OOPIntro\obj\Debug\net7.0\ref\OOPIntro.dll

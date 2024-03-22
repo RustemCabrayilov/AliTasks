@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\OOPIntro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{97B9924F-E38D-4CF3-8C29-53232AC0EF02}|OOPIntro\\OOPIntro.csproj|c:\\users\\nijat\\onedrive\\desktop\\ali\\oopintro\\oopintro\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B9924F-E38D-4CF3-8C29-53232AC0EF02}|OOPIntro\\OOPIntro.csproj|solutionrelative:oopintro\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B9924F-E38D-4CF3-8C29-53232AC0EF02}|OOPIntro\\OOPIntro.csproj|c:\\users\\nijat\\onedrive\\desktop\\ali\\oopintro\\oopintro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B9924F-E38D-4CF3-8C29-53232AC0EF02}|OOPIntro\\OOPIntro.csproj|solutionrelative:oopintro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B9924F-E38D-4CF3-8C29-53232AC0EF02}|OOPIntro\\OOPIntro.csproj|c:\\users\\nijat\\onedrive\\desktop\\ali\\oopintro\\oopintro\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B9924F-E38D-4CF3-8C29-53232AC0EF02}|OOPIntro\\OOPIntro.csproj|solutionrelative:oopintro\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B9924F-E38D-4CF3-8C29-53232AC0EF02}|OOPIntro\\OOPIntro.csproj|c:\\users\\nijat\\onedrive\\desktop\\ali\\oopintro\\oopintro\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B9924F-E38D-4CF3-8C29-53232AC0EF02}|OOPIntro\\OOPIntro.csproj|solutionrelative:oopintro\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\OOPIntro\\OOPIntro\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "OOPIntro\\Models\\Person.cs",
+              "ToolTip": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\OOPIntro\\OOPIntro\\Models\\Person.cs",
+              "RelativeToolTip": "OOPIntro\\Models\\Person.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T08:33:27.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\OOPIntro\\OOPIntro\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "OOPIntro\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\OOPIntro\\OOPIntro\\Models\\Student.cs",
+              "RelativeToolTip": "OOPIntro\\Models\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T08:30:23.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\OOPIntro\\OOPIntro\\Program.cs",
+              "RelativeDocumentMoniker": "OOPIntro\\Program.cs",
+              "ToolTip": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\OOPIntro\\OOPIntro\\Program.cs",
+              "RelativeToolTip": "OOPIntro\\Program.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAAADYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T08:05:55.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\OOPIntro\\OOPIntro\\Models\\Teacher.cs",
+              "RelativeDocumentMoniker": "OOPIntro\\Models\\Teacher.cs",
+              "ToolTip": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\OOPIntro\\OOPIntro\\Models\\Teacher.cs",
+              "RelativeToolTip": "OOPIntro\\Models\\Teacher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T08:21:28.584Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
