@@ -1,0 +1,15 @@
+C:\Users\Nijat\OneDrive\Desktop\Ali\Relations\Relations\bin\Debug\net7.0\Relations.exe
+C:\Users\Nijat\OneDrive\Desktop\Ali\Relations\Relations\bin\Debug\net7.0\Relations.deps.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\Relations\Relations\bin\Debug\net7.0\Relations.runtimeconfig.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\Relations\Relations\bin\Debug\net7.0\Relations.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\Relations\Relations\bin\Debug\net7.0\Relations.pdb
+C:\Users\Nijat\OneDrive\Desktop\Ali\Relations\Relations\obj\Debug\net7.0\Relations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nijat\OneDrive\Desktop\Ali\Relations\Relations\obj\Debug\net7.0\Relations.AssemblyInfoInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\Relations\Relations\obj\Debug\net7.0\Relations.AssemblyInfo.cs
+C:\Users\Nijat\OneDrive\Desktop\Ali\Relations\Relations\obj\Debug\net7.0\Relations.csproj.CoreCompileInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\Relations\Relations\obj\Debug\net7.0\Relations.sourcelink.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\Relations\Relations\obj\Debug\net7.0\Relations.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\Relations\Relations\obj\Debug\net7.0\refint\Relations.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\Relations\Relations\obj\Debug\net7.0\Relations.pdb
+C:\Users\Nijat\OneDrive\Desktop\Ali\Relations\Relations\obj\Debug\net7.0\Relations.genruntimeconfig.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\Relations\Relations\obj\Debug\net7.0\ref\Relations.dll
