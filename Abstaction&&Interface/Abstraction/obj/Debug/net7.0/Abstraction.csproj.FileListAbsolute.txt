@@ -1,0 +1,15 @@
+C:\Users\Nijat\OneDrive\Desktop\Ali\Abstaction&&Interface\Abstraction\bin\Debug\net7.0\Abstraction.exe
+C:\Users\Nijat\OneDrive\Desktop\Ali\Abstaction&&Interface\Abstraction\bin\Debug\net7.0\Abstraction.deps.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\Abstaction&&Interface\Abstraction\bin\Debug\net7.0\Abstraction.runtimeconfig.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\Abstaction&&Interface\Abstraction\bin\Debug\net7.0\Abstraction.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\Abstaction&&Interface\Abstraction\bin\Debug\net7.0\Abstraction.pdb
+C:\Users\Nijat\OneDrive\Desktop\Ali\Abstaction&&Interface\Abstraction\obj\Debug\net7.0\Abstraction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nijat\OneDrive\Desktop\Ali\Abstaction&&Interface\Abstraction\obj\Debug\net7.0\Abstraction.AssemblyInfoInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\Abstaction&&Interface\Abstraction\obj\Debug\net7.0\Abstraction.AssemblyInfo.cs
+C:\Users\Nijat\OneDrive\Desktop\Ali\Abstaction&&Interface\Abstraction\obj\Debug\net7.0\Abstraction.csproj.CoreCompileInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\Abstaction&&Interface\Abstraction\obj\Debug\net7.0\Abstraction.sourcelink.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\Abstaction&&Interface\Abstraction\obj\Debug\net7.0\Abstraction.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\Abstaction&&Interface\Abstraction\obj\Debug\net7.0\refint\Abstraction.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\Abstaction&&Interface\Abstraction\obj\Debug\net7.0\Abstraction.pdb
+C:\Users\Nijat\OneDrive\Desktop\Ali\Abstaction&&Interface\Abstraction\obj\Debug\net7.0\Abstraction.genruntimeconfig.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\Abstaction&&Interface\Abstraction\obj\Debug\net7.0\ref\Abstraction.dll

@@ -4,11 +4,10 @@ namespace EmployeeDepartment
 {
 	internal class Program
 	{
-		public static List<Department> departmentList = new List<Department> { new() { Id=1,Name="IT",EmployeeLimit=2} };
+		public static List<Department> departmentList = new List<Department>();
 		static void Main(string[] args)
 		{
-
-			bool isContinue = true;
+            bool isContinue = true;
 			string Menu1 = "1.Department Create\n" +
 					"2.Department Show\n" +
 					"3.Department Show By ID\n" +
@@ -44,7 +43,27 @@ namespace EmployeeDepartment
 							Console.Clear();
 							switch (operation)
 							{
-
+								case 1:
+									CreateDepartment();
+									break;
+								case 2:
+									ShowDepartments();
+									break;
+								case 3:
+									ShowDepartmentsById();
+									break;
+								case 4:
+									ShowDepartmentsById();
+									break;
+								case 5:
+									ShowDepartmentsById();
+									break;
+								case 6:
+									isContinue1 = false;
+									break;
+								default:
+									Message("Operation nomresi yanlisdir", false);
+									break;
 							}
 						}
 						break;
@@ -83,7 +102,10 @@ namespace EmployeeDepartment
 								case 6:
 									isContinue1 = false;
 									break;
-							}
+								default:
+									Message("Operation nomresi yanlisdir", false);
+									break;
+                            }
 						}
 						break;
 					case 3:
@@ -91,7 +113,7 @@ namespace EmployeeDepartment
 						isContinue = false;
 						break;
 					default:
-						Console.WriteLine("Duzgun operation nomresini daxil edin");
+						Message("Operation nomresi yanlisdir", false);
 						break;
 				}
 
@@ -108,6 +130,86 @@ namespace EmployeeDepartment
 				}
 			}
 			return null;
+		}
+
+		private static void CreateDepartment()
+		{
+
+			Console.Write("Id:");
+			int id = int.Parse(Console.ReadLine());
+			if (!CheckId(id))
+			{
+				Message("Sistemde bu Id-de department var", false);
+				return;
+			}
+            Console.Write("Department Name:");
+			string name = Console.ReadLine();
+
+			Console.Write("Employee Limit:");
+			int limit =int.Parse( Console.ReadLine());
+
+			Department department = new Department(id, name, limit);
+			departmentList.Add(department);
+			Message("Department yarandi", true);
+        }
+		private static void ShowDepartments()
+		{
+			if (departmentList.Count == 0)
+			{
+				Message("Ilk once department elave edin", false);
+				return ;
+			}
+
+           foreach(var department in departmentList)
+			{
+                Console.WriteLine(department.ToString());
+            }
+        }
+		private static void ShowDepartmentsById()
+		{
+			if (departmentList.Count == 0)
+			{
+				Message("Ilk once department elave edin", false);
+				return;
+			}
+			Console.Write("Id:");
+			int id = int.Parse(Console.ReadLine());
+			Department department = FindDepartment(id);
+			if (department != null)
+			{
+				Console.WriteLine(department.ToString());
+			}
+			else
+			{
+				Message("Bu Id-de Department yoxdur",false);
+			}
+		
+		}
+
+		private static bool CheckId(int id)
+		{
+			foreach (var department in departmentList)
+			{
+				if (department.Id == id)
+				{
+					return false;
+				}
+			}
+			return true;
+		}
+
+		private static void Message(string message, bool isSuccess)
+		{
+			if (isSuccess)
+			{
+				Console.ForegroundColor = ConsoleColor.Green;
+			}
+			else
+			{
+				Console.ForegroundColor = ConsoleColor.Red;
+			}
+			Console.WriteLine(message);
+			Console.ForegroundColor = ConsoleColor.White;
 		}
 	}
 }

@@ -14,16 +14,21 @@ namespace EmployeeDepartment.Models
 		public int EmployeeLimit { get; set; }
 		private double SalaryLimit = 250;
 		public List<Employee> Employees = new List<Employee>();
-        public Department(string Name,int EmployeeLimit)
+        public Department(int id,string Name,int EmployeeLimit)
         {
+			this.Id = id;
             this.Name = Name;
 			this.EmployeeLimit = EmployeeLimit;
-			Message("Ugurlu Department yarandi", true);
 		}
         public Department()
         {
         }
-        public void AddEmployee()
+
+		public override string ToString()
+		{
+			return "Id: " + this.Id + "  Name: " + this.Name + " Employee Count: " + this.Employees.Count + "  Employee Limit: " + this.EmployeeLimit;
+		}
+		public void AddEmployee()
 		{
 			if(this.Employees.Count >= this.EmployeeLimit)
 			{
