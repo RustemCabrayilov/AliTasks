@@ -1,0 +1,15 @@
+C:\Users\Nijat\OneDrive\Desktop\Ali\Static\StaticLesson\bin\Debug\net7.0\StaticLesson.exe
+C:\Users\Nijat\OneDrive\Desktop\Ali\Static\StaticLesson\bin\Debug\net7.0\StaticLesson.deps.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\Static\StaticLesson\bin\Debug\net7.0\StaticLesson.runtimeconfig.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\Static\StaticLesson\bin\Debug\net7.0\StaticLesson.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\Static\StaticLesson\bin\Debug\net7.0\StaticLesson.pdb
+C:\Users\Nijat\OneDrive\Desktop\Ali\Static\StaticLesson\obj\Debug\net7.0\StaticLesson.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nijat\OneDrive\Desktop\Ali\Static\StaticLesson\obj\Debug\net7.0\StaticLesson.AssemblyInfoInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\Static\StaticLesson\obj\Debug\net7.0\StaticLesson.AssemblyInfo.cs
+C:\Users\Nijat\OneDrive\Desktop\Ali\Static\StaticLesson\obj\Debug\net7.0\StaticLesson.csproj.CoreCompileInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\Static\StaticLesson\obj\Debug\net7.0\StaticLesson.sourcelink.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\Static\StaticLesson\obj\Debug\net7.0\StaticLesson.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\Static\StaticLesson\obj\Debug\net7.0\refint\StaticLesson.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\Static\StaticLesson\obj\Debug\net7.0\StaticLesson.pdb
+C:\Users\Nijat\OneDrive\Desktop\Ali\Static\StaticLesson\obj\Debug\net7.0\StaticLesson.genruntimeconfig.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\Static\StaticLesson\obj\Debug\net7.0\ref\StaticLesson.dll

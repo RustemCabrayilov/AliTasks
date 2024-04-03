@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EmployeeDepartment.Extensions;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -30,9 +31,12 @@ namespace EmployeeDepartment.Models
 		}
 		public void AddEmployee()
 		{
+			string msg = string.Empty;
 			if(this.Employees.Count >= this.EmployeeLimit)
 			{
-				Message("Isci limitine catdiniz", false);
+			    msg = "Isci limitine catdiniz";
+				msg.Message(ConsoleColor.Red);
+				
 				return;
             }
 
@@ -41,8 +45,8 @@ namespace EmployeeDepartment.Models
 			int Id = int.Parse(Console.ReadLine());
 			if (!CheckId(Id))
 			{
-				Message("Sistemde bu Id-de isci var", false);
-				return;
+			  msg = "Sistemde bu Id-de isci var";
+				msg.Message(ConsoleColor.Red);
 			}
 
 
@@ -63,7 +67,8 @@ namespace EmployeeDepartment.Models
 			double salary = Convert.ToDouble(Console.ReadLine());
 			while (salary < SalaryLimit)
 			{
-				Message("Maas 250 den cox olmalidir\nAgain:", false);
+			    msg = "Maas 250 den cox olmalidir\nAgain:";
+				msg.Message(ConsoleColor.Red);
 				salary = Convert.ToDouble(Console.ReadLine());	
             }
 			Employee employee = new Employee();
@@ -72,17 +77,20 @@ namespace EmployeeDepartment.Models
 			employee.Surname = surname;
 			employee.Salary = salary;
 			employee.Department = this;
-			Message("Elave olundu", true);
             Employees.Add(employee);
+			msg = "Ugurla Elave olundu";
+			msg.Message(ConsoleColor.Green);
 		}
 		public void UpdateEmployee()
 		{
+			string msg = string.Empty;
             Console.Write("Deyislik etmek istediyiniz iscinin id-sini daxil edin: ");
 			int id = int.Parse(Console.ReadLine());
 			Employee employee = FindEmployee(id);
 			if(employee == null)
 			{
-				Message("Sistemde bele id-li isci yoxdur", false);
+				msg = "Sistemde bele id-li isci yoxdur";
+				msg.Message(ConsoleColor.Red);
 				return;
 			}
 			Console.WriteLine(employee.ToString());
@@ -103,16 +111,24 @@ namespace EmployeeDepartment.Models
 			double salary = Convert.ToDouble(Console.ReadLine());
 			while (salary < SalaryLimit)
 			{
-				Message("Maas 250 den cox olmalidir\nAgain:", false);
+				msg = "Maas 250 den cox olmalidir\nAgain:";
+				msg.Message(ConsoleColor.Red);
 				salary = Convert.ToDouble(Console.ReadLine());
 			}
 			employee.Name = name;
 			employee.Surname = surname;
 			employee.Salary = salary;
-			Message("Deyisiklik ugurla yerine yetirildi", true);
+			msg = "Deyisiklik ugurla yerine yetirildi";
+			msg.Message(ConsoleColor.Green);
 		}
 		public void ShowEmployees()
 		{
+			if(Employees.Count == 0)
+			{
+				string msg = "Ilk once isci elave edin";
+				msg.Message(ConsoleColor.Red);
+				return;
+			}
 			foreach (var employee in Employees)
 			{
                 Console.WriteLine(employee.ToString());
@@ -120,38 +136,45 @@ namespace EmployeeDepartment.Models
 		}
 		public void ShowEmployeeById()
 		{
+			string msg = string.Empty;
             Console.Write("Axtarmaq istediyiniz iscinin id-sini yazin: ");
 			int id = int.Parse(Console.ReadLine());
 			Employee employee = FindEmployee(id);
 			if(employee == null)
 			{
-				Message("Sistemde bele id-li isci yoxdur", false);
+				msg = "Sistemde bele id-li isci yoxdur";
+				msg.Message(ConsoleColor.Red);
 				return;
 			}
             Console.WriteLine(employee.ToString());
 		}
 		public void RemoveById()
 		{
+			string msg = string.Empty;
             Console.Write("Silmek istediyiniz iscinin id-sini daxil edin: ");
 			int id = int.Parse(Console.ReadLine());
 			Employee employee = FindEmployee(id);
 			if (employee == null)
 			{
-				Message("Sistemde bele id-li isci yoxdur", false);
+				msg = "Sistemde bele id-li isci yoxdur";
+				msg.Message(ConsoleColor.Red);
 				return;
 			}
 			Employees.Remove(employee);
-			Message("Ugurlu emeliyyat", true);
+			msg = "Ugurlu emeliyyat";
+			msg.Message(ConsoleColor.Green);
 		}
 		private bool CheckName(string data)
 		{
+			string msg = string.Empty;
 			if (data.Length == 0)
 			{
 				return false;
 			}
 			if (!char.IsUpper(data[0]))
 			{
-				Message("Ad ve ya soyad boyuk herf ile baslamalidir!!!", false);
+				msg = "Ad ve ya soyad boyuk herf ile baslamalidir!!!";
+				msg.Message(ConsoleColor.Red);
                 return false;
 			}
 			
@@ -159,7 +182,8 @@ namespace EmployeeDepartment.Models
 			{
 				if (!char.IsLetter(data[i]))
 				{
-					Message("Ad ve ya soyad yalniz herfler ibaret olmalidir!!!", false);
+					msg = "Ad ve ya soyad yalniz herfler ibaret olmalidir!!!";
+					msg.Message(ConsoleColor.Red);
 					return false;
 				}
 			}
@@ -186,19 +210,6 @@ namespace EmployeeDepartment.Models
 				}
 			}
 			return null;
-		}
-		private void Message(string message,bool isSuccess)
-		{
-			if (isSuccess)
-			{
-				Console.ForegroundColor = ConsoleColor.Green;
-			}
-			else
-			{
-				Console.ForegroundColor = ConsoleColor.Red;
-			}
-			Console.WriteLine(message);
-			Console.ForegroundColor = ConsoleColor.White;
 		}
 	}
 }

@@ -1,4 +1,5 @@
-﻿using EmployeeDepartment.Models;
+﻿using EmployeeDepartment.Extensions;
+using EmployeeDepartment.Models;
 
 namespace EmployeeDepartment
 {
@@ -8,6 +9,7 @@ namespace EmployeeDepartment
 		static void Main(string[] args)
 		{
             bool isContinue = true;
+			string msg = string.Empty;
 			string Menu1 = "1.Department Create\n" +
 					"2.Department Show\n" +
 					"3.Department Show By ID\n" +
@@ -62,7 +64,8 @@ namespace EmployeeDepartment
 									isContinue1 = false;
 									break;
 								default:
-									Message("Operation nomresi yanlisdir", false);
+									msg = "Operation nomresi yanlisdir";
+									msg.Message(ConsoleColor.Red);
 									break;
 							}
 						}
@@ -75,7 +78,8 @@ namespace EmployeeDepartment
 						{
 							if(department == null)
 							{
-                                Console.WriteLine("Bu id-de Department yoxdur");
+								msg = "Bu id-de Department yoxdur";
+								msg.Message(ConsoleColor.Red);
 								break;
                             }
                             Console.WriteLine(Menu2);
@@ -103,7 +107,8 @@ namespace EmployeeDepartment
 									isContinue1 = false;
 									break;
 								default:
-									Message("Operation nomresi yanlisdir", false);
+									msg = "Operation nomresi yanlisdir";
+									msg.Message(ConsoleColor.Red);
 									break;
                             }
 						}
@@ -113,7 +118,8 @@ namespace EmployeeDepartment
 						isContinue = false;
 						break;
 					default:
-						Message("Operation nomresi yanlisdir", false);
+						msg = "Operation nomresi yanlisdir";
+						msg.Message(ConsoleColor.Red);
 						break;
 				}
 
@@ -134,12 +140,13 @@ namespace EmployeeDepartment
 
 		private static void CreateDepartment()
 		{
-
+			string msg = string.Empty;
 			Console.Write("Id:");
 			int id = int.Parse(Console.ReadLine());
 			if (!CheckId(id))
 			{
-				Message("Sistemde bu Id-de department var", false);
+				msg = "Sistemde bu Id-de department var";
+				msg.Message(ConsoleColor.Red);
 				return;
 			}
             Console.Write("Department Name:");
@@ -150,13 +157,15 @@ namespace EmployeeDepartment
 
 			Department department = new Department(id, name, limit);
 			departmentList.Add(department);
-			Message("Department yarandi", true);
+			msg = "Department ugurla yarandi";
+			msg.Message(ConsoleColor.Green);
         }
 		private static void ShowDepartments()
 		{
 			if (departmentList.Count == 0)
 			{
-				Message("Ilk once department elave edin", false);
+				string msg = "Ilk once department elave edin";
+				msg.Message(ConsoleColor.Red);
 				return ;
 			}
 
@@ -167,9 +176,11 @@ namespace EmployeeDepartment
         }
 		private static void ShowDepartmentsById()
 		{
+			string msg = string.Empty;
 			if (departmentList.Count == 0)
 			{
-				Message("Ilk once department elave edin", false);
+				msg = "Ilk once department elave edin";
+				msg.Message(ConsoleColor.Red);
 				return;
 			}
 			Console.Write("Id:");
@@ -181,10 +192,12 @@ namespace EmployeeDepartment
 			}
 			else
 			{
-				Message("Bu Id-de Department yoxdur",false);
+				msg = "Bu Id-de Department yoxdur";
+				msg.Message(ConsoleColor.Red);
 			}
-		
-		}
+            Console.WriteLine(department.ToString());
+
+        }
 
 		private static bool CheckId(int id)
 		{
@@ -196,20 +209,6 @@ namespace EmployeeDepartment
 				}
 			}
 			return true;
-		}
-
-		private static void Message(string message, bool isSuccess)
-		{
-			if (isSuccess)
-			{
-				Console.ForegroundColor = ConsoleColor.Green;
-			}
-			else
-			{
-				Console.ForegroundColor = ConsoleColor.Red;
-			}
-			Console.WriteLine(message);
-			Console.ForegroundColor = ConsoleColor.White;
 		}
 	}
 }

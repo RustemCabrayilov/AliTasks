@@ -1,0 +1,15 @@
+C:\Users\Nijat\OneDrive\Desktop\Ali\Static\Static\bin\Debug\net7.0\Static.exe
+C:\Users\Nijat\OneDrive\Desktop\Ali\Static\Static\bin\Debug\net7.0\Static.deps.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\Static\Static\bin\Debug\net7.0\Static.runtimeconfig.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\Static\Static\bin\Debug\net7.0\Static.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\Static\Static\bin\Debug\net7.0\Static.pdb
+C:\Users\Nijat\OneDrive\Desktop\Ali\Static\Static\obj\Debug\net7.0\Static.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nijat\OneDrive\Desktop\Ali\Static\Static\obj\Debug\net7.0\Static.AssemblyInfoInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\Static\Static\obj\Debug\net7.0\Static.AssemblyInfo.cs
+C:\Users\Nijat\OneDrive\Desktop\Ali\Static\Static\obj\Debug\net7.0\Static.csproj.CoreCompileInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\Static\Static\obj\Debug\net7.0\Static.sourcelink.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\Static\Static\obj\Debug\net7.0\Static.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\Static\Static\obj\Debug\net7.0\refint\Static.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\Static\Static\obj\Debug\net7.0\Static.pdb
+C:\Users\Nijat\OneDrive\Desktop\Ali\Static\Static\obj\Debug\net7.0\Static.genruntimeconfig.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\Static\Static\obj\Debug\net7.0\ref\Static.dll
