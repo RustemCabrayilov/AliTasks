@@ -10,21 +10,22 @@ namespace EmployeeDepartment.Models
 {
 	public class Department
 	{
-		public int Id { get; set; }
+		public readonly int Id;
 		public string Name { get; set; }
 		public int EmployeeLimit { get; set; }
 		private double SalaryLimit = 250;
+		private static int _count;
 		public List<Employee> Employees = new List<Employee>();
-        public Department(int id,string Name,int EmployeeLimit)
+        public Department(string Name,int EmployeeLimit)
         {
-			this.Id = id;
+			_count++;
+			Id = _count;
             this.Name = Name;
 			this.EmployeeLimit = EmployeeLimit;
 		}
         public Department()
         {
         }
-
 		public override string ToString()
 		{
 			return "Id: " + this.Id + "  Name: " + this.Name + " Employee Count: " + this.Employees.Count + "  Employee Limit: " + this.EmployeeLimit;
@@ -39,17 +40,6 @@ namespace EmployeeDepartment.Models
 				
 				return;
             }
-
-
-            Console.Write("Id:");
-			int Id = int.Parse(Console.ReadLine());
-			if (!CheckId(Id))
-			{
-			  msg = "Sistemde bu Id-de isci var";
-				msg.Message(ConsoleColor.Red);
-			}
-
-
             Console.Write("Employee Name: ");
 			string name = Console.ReadLine();
 			Console.Write("Surname: ");
@@ -72,7 +62,6 @@ namespace EmployeeDepartment.Models
 				salary = Convert.ToDouble(Console.ReadLine());	
             }
 			Employee employee = new Employee();
-			employee.Id = Id;
 			employee.Name = name;
 			employee.Surname = surname;
 			employee.Salary = salary;
@@ -89,7 +78,7 @@ namespace EmployeeDepartment.Models
 			Employee employee = FindEmployee(id);
 			if(employee == null)
 			{
-				msg = "Sistemde bele id-li isci yoxdur";
+				msg = "Bu Department-de bele id-li isci yoxdur";
 				msg.Message(ConsoleColor.Red);
 				return;
 			}
@@ -142,7 +131,7 @@ namespace EmployeeDepartment.Models
 			Employee employee = FindEmployee(id);
 			if(employee == null)
 			{
-				msg = "Sistemde bele id-li isci yoxdur";
+				msg = "Bu Department-de bele id-li isci yoxdur";
 				msg.Message(ConsoleColor.Red);
 				return;
 			}
@@ -156,7 +145,7 @@ namespace EmployeeDepartment.Models
 			Employee employee = FindEmployee(id);
 			if (employee == null)
 			{
-				msg = "Sistemde bele id-li isci yoxdur";
+				msg = "Bu Department-de bele id-li isci yoxdur";
 				msg.Message(ConsoleColor.Red);
 				return;
 			}
@@ -184,17 +173,6 @@ namespace EmployeeDepartment.Models
 				{
 					msg = "Ad ve ya soyad yalniz herfler ibaret olmalidir!!!";
 					msg.Message(ConsoleColor.Red);
-					return false;
-				}
-			}
-			return true;
-		}
-		private bool CheckId(int id)
-		{
-			foreach(var employee in Employees)
-			{
-				if (employee.Id == id)
-				{
 					return false;
 				}
 			}

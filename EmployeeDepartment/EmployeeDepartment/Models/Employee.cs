@@ -8,11 +8,18 @@ namespace EmployeeDepartment.Models
 {
 	public class Employee
 	{
-		public int Id { get; set; }
+		public readonly int Id;
 		public string Name { get; set; }
 		public string Surname { get; set; }
 		public double Salary { get; set; }
 		public Department Department { get; set; }
+		private static int _count;
+
+		public Employee()
+		{
+			_count++;
+			Id = _count;
+		}
 
 		public override string ToString()
 		{

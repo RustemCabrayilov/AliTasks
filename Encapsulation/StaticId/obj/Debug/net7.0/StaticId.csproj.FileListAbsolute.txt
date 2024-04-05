@@ -1,0 +1,15 @@
+C:\Users\Nijat\OneDrive\Desktop\Ali\Encapsulation\StaticId\bin\Debug\net7.0\StaticId.exe
+C:\Users\Nijat\OneDrive\Desktop\Ali\Encapsulation\StaticId\bin\Debug\net7.0\StaticId.deps.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\Encapsulation\StaticId\bin\Debug\net7.0\StaticId.runtimeconfig.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\Encapsulation\StaticId\bin\Debug\net7.0\StaticId.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\Encapsulation\StaticId\bin\Debug\net7.0\StaticId.pdb
+C:\Users\Nijat\OneDrive\Desktop\Ali\Encapsulation\StaticId\obj\Debug\net7.0\StaticId.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nijat\OneDrive\Desktop\Ali\Encapsulation\StaticId\obj\Debug\net7.0\StaticId.AssemblyInfoInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\Encapsulation\StaticId\obj\Debug\net7.0\StaticId.AssemblyInfo.cs
+C:\Users\Nijat\OneDrive\Desktop\Ali\Encapsulation\StaticId\obj\Debug\net7.0\StaticId.csproj.CoreCompileInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\Encapsulation\StaticId\obj\Debug\net7.0\StaticId.sourcelink.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\Encapsulation\StaticId\obj\Debug\net7.0\StaticId.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\Encapsulation\StaticId\obj\Debug\net7.0\refint\StaticId.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\Encapsulation\StaticId\obj\Debug\net7.0\StaticId.pdb
+C:\Users\Nijat\OneDrive\Desktop\Ali\Encapsulation\StaticId\obj\Debug\net7.0\StaticId.genruntimeconfig.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\Encapsulation\StaticId\obj\Debug\net7.0\ref\StaticId.dll

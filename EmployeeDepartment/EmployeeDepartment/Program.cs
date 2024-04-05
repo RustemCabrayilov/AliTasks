@@ -15,7 +15,8 @@ namespace EmployeeDepartment
 					"3.Department Show By ID\n" +
 					"4.Department Update\n" +
 					"5.Department Remove\n" +
-					"6.Main Menu";
+					"6.Change Employee Department\n"+
+					"7.Main Menu";
 
 			string Menu2 = "1.Employee Create\n" +
 					"2.Employee Show\n" +
@@ -55,12 +56,15 @@ namespace EmployeeDepartment
 									ShowDepartmentsById();
 									break;
 								case 4:
-									ShowDepartmentsById();
+									UpdateDepartment();
 									break;
 								case 5:
-									ShowDepartmentsById();
+									RemoveDepartment();
 									break;
 								case 6:
+									ChangeEmployeeDepartment();
+									break;
+								case 7:
 									isContinue1 = false;
 									break;
 								default:
@@ -137,25 +141,16 @@ namespace EmployeeDepartment
 			}
 			return null;
 		}
-
 		private static void CreateDepartment()
 		{
 			string msg = string.Empty;
-			Console.Write("Id:");
-			int id = int.Parse(Console.ReadLine());
-			if (!CheckId(id))
-			{
-				msg = "Sistemde bu Id-de department var";
-				msg.Message(ConsoleColor.Red);
-				return;
-			}
             Console.Write("Department Name:");
 			string name = Console.ReadLine();
 
 			Console.Write("Employee Limit:");
 			int limit =int.Parse( Console.ReadLine());
 
-			Department department = new Department(id, name, limit);
+			Department department = new Department(name, limit);
 			departmentList.Add(department);
 			msg = "Department ugurla yarandi";
 			msg.Message(ConsoleColor.Green);
@@ -198,34 +193,104 @@ namespace EmployeeDepartment
             Console.WriteLine(department.ToString());
 
         }
+		private static void RemoveDepartment()
+		{
+			string msg = string.Empty;
+			Console.Write("Silmek istediyiniz Department-in id-sini daxil edin: ");
+			int id = int.Parse(Console.ReadLine());
+			Department department = FindDepartment(id);
+			if (department == null)
+			{
+				msg = "Sistemde bu id-de Department yoxdur";
+				msg.Message(ConsoleColor.Red);
+				return;
+			}
+			departmentList.Remove(department);
+			msg = "Ugurlu emeliyyat";
+			msg.Message(ConsoleColor.Green);
+		}
+		private static void UpdateDepartment()
+		{
+			string msg = string.Empty;
+			Console.Write("Deyislik etmek istediyiniz departmentin id-sini daxil edin: ");
+			int id = int.Parse(Console.ReadLine());
+			Department department = FindDepartment(id);
+			if (department == null)
+			{
+				msg = "Sistemde bu id-de department yoxdur";
+				msg.Message(ConsoleColor.Red);
+				return;
+			}
+			Console.WriteLine(department.ToString());
 
-		private static bool CheckId(int id)
+
+			Console.Write("Deparment Name: ");
+			string name = Console.ReadLine();
+
+			Console.Write("Employee Limit: ");
+			int employeeLimit = int.Parse(Console.ReadLine());
+
+		
+			department.Name = name;
+			department.EmployeeLimit = employeeLimit;
+			msg = "Deyisiklik ugurla yerine yetirildi";
+			msg.Message(ConsoleColor.Green);
+		}
+		private static void ChangeEmployeeDepartment()
+		{
+			string msg = string.Empty;
+
+			Console.Write("Id:");
+			int id = int.Parse(Console.ReadLine());
+
+			Employee employee = FindEmployee(id);
+
+			if(employee  == null)
+			{
+				msg = "Sistemde bu id-de employee yoxdur";
+				msg.Message(ConsoleColor.Red);
+				return;
+			}
+
+            Console.WriteLine(employee.ToString());
+
+			Department department = null;
+			do
+			{
+				Console.Write("Deyismek istediyiniz Departmentin id-sini daxil edin: ");
+				int departmentId = int.Parse(Console.ReadLine());
+			     department = FindDepartment(departmentId);
+				if(department != null)
+				{
+					employee.Department.Employees.Remove(employee);
+					department.Employees.Add(employee);
+					break;
+				}
+				Console.Clear();
+                Console.WriteLine("Bu id-de Department tapilmadi!!!");
+            }
+			while (true);
+            Console.WriteLine(department.ToString());
+            employee.Department = department;
+
+			msg = "Ugurlu Yerdeyisme";
+			msg.Message(ConsoleColor.Green);
+
+
+		}
+		private static Employee FindEmployee(int id)
 		{
 			foreach (var department in departmentList)
 			{
-				if (department.Id == id)
+				foreach (var employee in department.Employees)
 				{
-					return false;
+					if (id == employee.Id)
+					{
+						return employee;
+					}
 				}
 			}
-			return true;
+			return null;
 		}
 	}
 }
-/*
- * Console.Write("Department Name: ");
-						string name = Console.ReadLine();
-						Console.Write("Employee Limit(int): ");
-						int employeeLimit = Convert.ToInt32(Console.ReadLine());
-						department = new Department(name,employeeLimit);
-						break;
- * 
- * 
- */
-
-/*	if (department.Name == null)
-						{
-							Console.WriteLine("Ilk once department yaradin");
-							break;
-						}
-*/
