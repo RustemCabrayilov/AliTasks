@@ -1,0 +1,14 @@
+C:\Users\nijatjs\source\repos\AliTask\AliTask\bin\Debug\net8.0\AliTask.exe
+C:\Users\nijatjs\source\repos\AliTask\AliTask\bin\Debug\net8.0\AliTask.deps.json
+C:\Users\nijatjs\source\repos\AliTask\AliTask\bin\Debug\net8.0\AliTask.runtimeconfig.json
+C:\Users\nijatjs\source\repos\AliTask\AliTask\bin\Debug\net8.0\AliTask.dll
+C:\Users\nijatjs\source\repos\AliTask\AliTask\bin\Debug\net8.0\AliTask.pdb
+C:\Users\nijatjs\source\repos\AliTask\AliTask\obj\Debug\net8.0\AliTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nijatjs\source\repos\AliTask\AliTask\obj\Debug\net8.0\AliTask.AssemblyInfoInputs.cache
+C:\Users\nijatjs\source\repos\AliTask\AliTask\obj\Debug\net8.0\AliTask.AssemblyInfo.cs
+C:\Users\nijatjs\source\repos\AliTask\AliTask\obj\Debug\net8.0\AliTask.csproj.CoreCompileInputs.cache
+C:\Users\nijatjs\source\repos\AliTask\AliTask\obj\Debug\net8.0\AliTask.dll
+C:\Users\nijatjs\source\repos\AliTask\AliTask\obj\Debug\net8.0\refint\AliTask.dll
+C:\Users\nijatjs\source\repos\AliTask\AliTask\obj\Debug\net8.0\AliTask.pdb
+C:\Users\nijatjs\source\repos\AliTask\AliTask\obj\Debug\net8.0\AliTask.genruntimeconfig.cache
+C:\Users\nijatjs\source\repos\AliTask\AliTask\obj\Debug\net8.0\ref\AliTask.dll

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "StructEnum/1.0.0": {
+        "dependencies": {
+          "ExampleSolution": "1.0.0"
+        },
+        "runtime": {
+          "StructEnum.dll": {}
+        }
+      },
+      "ExampleSolution/1.0.0": {
+        "runtime": {
+          "ExampleSolution.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StructEnum/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ExampleSolution/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
