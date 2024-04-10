@@ -1,22 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nijatjs\\Desktop\\AliTasks\\StructEnum\\",
+  "WorkspaceRootPath": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\StructEnum\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF8A2E6D-39BA-4D49-AD3D-825FD2E4CA6B}|Relations\\Relations.csproj|c:\\users\\nijatjs\\desktop\\alitasks\\structenum\\relations\\productorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF8A2E6D-39BA-4D49-AD3D-825FD2E4CA6B}|Relations\\Relations.csproj|solutionrelative:relations\\productorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5DCAAF01-9C8E-4DF7-899B-2F47E11938B4}|StructEnum\\StructEnum.csproj|c:\\users\\nijat\\onedrive\\desktop\\ali\\structenum\\structenum\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DCAAF01-9C8E-4DF7-899B-2F47E11938B4}|StructEnum\\StructEnum.csproj|solutionrelative:structenum\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF8A2E6D-39BA-4D49-AD3D-825FD2E4CA6B}|Relations\\Relations.csproj|c:\\users\\nijatjs\\desktop\\alitasks\\structenum\\relations\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF8A2E6D-39BA-4D49-AD3D-825FD2E4CA6B}|Relations\\Relations.csproj|solutionrelative:relations\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5DCAAF01-9C8E-4DF7-899B-2F47E11938B4}|StructEnum\\StructEnum.csproj|c:\\users\\nijat\\onedrive\\desktop\\ali\\structenum\\structenum\\clothessize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DCAAF01-9C8E-4DF7-899B-2F47E11938B4}|StructEnum\\StructEnum.csproj|solutionrelative:structenum\\clothessize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF8A2E6D-39BA-4D49-AD3D-825FD2E4CA6B}|Relations\\Relations.csproj|c:\\users\\nijatjs\\desktop\\alitasks\\structenum\\relations\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF8A2E6D-39BA-4D49-AD3D-825FD2E4CA6B}|Relations\\Relations.csproj|solutionrelative:relations\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF8A2E6D-39BA-4D49-AD3D-825FD2E4CA6B}|Relations\\Relations.csproj|c:\\users\\nijatjs\\desktop\\alitasks\\structenum\\relations\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF8A2E6D-39BA-4D49-AD3D-825FD2E4CA6B}|Relations\\Relations.csproj|solutionrelative:relations\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5DCAAF01-9C8E-4DF7-899B-2F47E11938B4}|StructEnum\\StructEnum.csproj|c:\\users\\nijat\\onedrive\\desktop\\ali\\structenum\\structenum\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DCAAF01-9C8E-4DF7-899B-2F47E11938B4}|StructEnum\\StructEnum.csproj|solutionrelative:structenum\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +22,53 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\StructEnum\\StructEnum\\Employee.cs",
+              "RelativeDocumentMoniker": "StructEnum\\Employee.cs",
+              "ToolTip": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\StructEnum\\StructEnum\\Employee.cs",
+              "RelativeToolTip": "StructEnum\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T08:10:31.995Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductOrder.cs",
-              "DocumentMoniker": "C:\\Users\\nijatjs\\Desktop\\AliTasks\\StructEnum\\Relations\\ProductOrder.cs",
-              "RelativeDocumentMoniker": "Relations\\ProductOrder.cs",
-              "ToolTip": "C:\\Users\\nijatjs\\Desktop\\AliTasks\\StructEnum\\Relations\\ProductOrder.cs",
-              "RelativeToolTip": "Relations\\ProductOrder.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAmAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\StructEnum\\StructEnum\\Program.cs",
+              "RelativeDocumentMoniker": "StructEnum\\Program.cs",
+              "ToolTip": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\StructEnum\\StructEnum\\Program.cs",
+              "RelativeToolTip": "StructEnum\\Program.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAACYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T10:59:46.63Z",
+              "WhenOpened": "2024-04-10T08:09:12.831Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\nijatjs\\Desktop\\AliTasks\\StructEnum\\Relations\\Order.cs",
-              "RelativeDocumentMoniker": "Relations\\Order.cs",
-              "ToolTip": "C:\\Users\\nijatjs\\Desktop\\AliTasks\\StructEnum\\Relations\\Order.cs",
-              "RelativeToolTip": "Relations\\Order.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAiAAAA",
+              "Title": "ClothesSize.cs",
+              "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\StructEnum\\StructEnum\\ClothesSize.cs",
+              "RelativeDocumentMoniker": "StructEnum\\ClothesSize.cs",
+              "ToolTip": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\StructEnum\\StructEnum\\ClothesSize.cs",
+              "RelativeToolTip": "StructEnum\\ClothesSize.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T10:57:04.524Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\nijatjs\\Desktop\\AliTasks\\StructEnum\\Relations\\Product.cs",
-              "RelativeDocumentMoniker": "Relations\\Product.cs",
-              "ToolTip": "C:\\Users\\nijatjs\\Desktop\\AliTasks\\StructEnum\\Relations\\Product.cs",
-              "RelativeToolTip": "Relations\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T10:56:52.597Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\nijatjs\\Desktop\\AliTasks\\StructEnum\\Relations\\Program.cs",
-              "RelativeDocumentMoniker": "Relations\\Program.cs",
-              "ToolTip": "C:\\Users\\nijatjs\\Desktop\\AliTasks\\StructEnum\\Relations\\Program.cs",
-              "RelativeToolTip": "Relations\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T10:56:02.663Z",
+              "WhenOpened": "2024-04-10T08:09:08.148Z",
               "EditorCaption": ""
             }
           ]

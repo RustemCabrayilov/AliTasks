@@ -8,14 +8,22 @@ namespace StructEnum
 {
     public struct Employee
     {
-        public int Id { get; set; }
+        private readonly int _id;
         public string Name { get; set; }
         public string Surname { get; set; }
         public ClothesSize ClothesSize { get; set; }
 
+        private static int _count;
+
+        public Employee()
+        {
+            _count++;
+            _id = _count;
+        }
+
         public override string ToString()
         {
-            return "Id: " + this.Id+ " Name: " + this.Name + " Surname:" + this.Surname + " Size:" + this.ClothesSize;
+            return "Id: " + this._id+ " Name: " + this.Name + " Surname:" + this.Surname + " Size:" + this.ClothesSize;
         }
     }
 }

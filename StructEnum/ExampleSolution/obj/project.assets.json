@@ -8,24 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\nijatjs\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Nijat\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nijatjs\\Desktop\\AliTasks\\StructEnum\\ExampleSolution\\ExampleSolution.csproj",
+      "projectUniqueName": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\StructEnum\\ExampleSolution\\ExampleSolution.csproj",
       "projectName": "ExampleSolution",
-      "projectPath": "C:\\Users\\nijatjs\\Desktop\\AliTasks\\StructEnum\\ExampleSolution\\ExampleSolution.csproj",
-      "packagesPath": "C:\\Users\\nijatjs\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nijatjs\\Desktop\\AliTasks\\StructEnum\\ExampleSolution\\obj\\",
+      "projectPath": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\StructEnum\\ExampleSolution\\ExampleSolution.csproj",
+      "packagesPath": "C:\\Users\\Nijat\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\StructEnum\\ExampleSolution\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\nijatjs\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Nijat\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -71,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

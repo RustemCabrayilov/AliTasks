@@ -1,0 +1,15 @@
+C:\Users\Nijat\OneDrive\Desktop\Ali\StringBuilder\StringBuilder\bin\Debug\net7.0\StringBuilder.exe
+C:\Users\Nijat\OneDrive\Desktop\Ali\StringBuilder\StringBuilder\bin\Debug\net7.0\StringBuilder.deps.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\StringBuilder\StringBuilder\bin\Debug\net7.0\StringBuilder.runtimeconfig.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\StringBuilder\StringBuilder\bin\Debug\net7.0\StringBuilder.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\StringBuilder\StringBuilder\bin\Debug\net7.0\StringBuilder.pdb
+C:\Users\Nijat\OneDrive\Desktop\Ali\StringBuilder\StringBuilder\obj\Debug\net7.0\StringBuilder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nijat\OneDrive\Desktop\Ali\StringBuilder\StringBuilder\obj\Debug\net7.0\StringBuilder.AssemblyInfoInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\StringBuilder\StringBuilder\obj\Debug\net7.0\StringBuilder.AssemblyInfo.cs
+C:\Users\Nijat\OneDrive\Desktop\Ali\StringBuilder\StringBuilder\obj\Debug\net7.0\StringBuilder.csproj.CoreCompileInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\StringBuilder\StringBuilder\obj\Debug\net7.0\StringBuilder.sourcelink.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\StringBuilder\StringBuilder\obj\Debug\net7.0\StringBuilder.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\StringBuilder\StringBuilder\obj\Debug\net7.0\refint\StringBuilder.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\StringBuilder\StringBuilder\obj\Debug\net7.0\StringBuilder.pdb
+C:\Users\Nijat\OneDrive\Desktop\Ali\StringBuilder\StringBuilder\obj\Debug\net7.0\StringBuilder.genruntimeconfig.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\StringBuilder\StringBuilder\obj\Debug\net7.0\ref\StringBuilder.dll

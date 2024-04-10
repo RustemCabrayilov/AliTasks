@@ -8,8 +8,8 @@ namespace StructEnum
 {
     public enum ClothesSize
     {
-        Small,
-        Medium,
-        Large
+        small ,
+        medium,
+        large
     }
 }
