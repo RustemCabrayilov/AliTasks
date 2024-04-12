@@ -14,8 +14,19 @@
 			//Person person5 = new Person();
 			//Student student = new Student("Nijat","Soltanov",20,"Baku","ADNSU");
 			//         Console.WriteLine();
-			FindSimples(10, 40);
+			//FindSimples(10, 40);
+
+			
+
+			List<int> ints	= new List<int>();
+
+			Console.WriteLine(ints[2]);
         }
+		public static void GetNew(out int id)
+		{
+			id = 1;
+			id++;
+		}
 
 		public static void FindSimples(int from,int to)
 		{

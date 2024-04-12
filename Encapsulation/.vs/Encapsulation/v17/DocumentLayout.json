@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\Encapsulation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FA298EC4-9507-4CCC-970E-E7131F48A5F1}|EncapsulationIntro\\EncapsulationIntro.csproj|c:\\users\\nijat\\onedrive\\desktop\\ali\\encapsulation\\encapsulationintro\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA298EC4-9507-4CCC-970E-E7131F48A5F1}|EncapsulationIntro\\EncapsulationIntro.csproj|solutionrelative:encapsulationintro\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FA298EC4-9507-4CCC-970E-E7131F48A5F1}|EncapsulationIntro\\EncapsulationIntro.csproj|c:\\users\\nijat\\onedrive\\desktop\\ali\\encapsulation\\encapsulationintro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA298EC4-9507-4CCC-970E-E7131F48A5F1}|EncapsulationIntro\\EncapsulationIntro.csproj|solutionrelative:encapsulationintro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA298EC4-9507-4CCC-970E-E7131F48A5F1}|EncapsulationIntro\\EncapsulationIntro.csproj|c:\\users\\nijat\\onedrive\\desktop\\ali\\encapsulation\\encapsulationintro\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA298EC4-9507-4CCC-970E-E7131F48A5F1}|EncapsulationIntro\\EncapsulationIntro.csproj|solutionrelative:encapsulationintro\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,13 +30,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\Encapsulation\\EncapsulationIntro\\Program.cs",
               "RelativeDocumentMoniker": "EncapsulationIntro\\Program.cs",
               "ToolTip": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\Encapsulation\\EncapsulationIntro\\Program.cs",
               "RelativeToolTip": "EncapsulationIntro\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACAAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-05T07:32:40.121Z",
               "EditorCaption": ""
@@ -49,13 +49,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Account.cs",
               "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\Encapsulation\\EncapsulationIntro\\Account.cs",
               "RelativeDocumentMoniker": "EncapsulationIntro\\Account.cs",
               "ToolTip": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\Encapsulation\\EncapsulationIntro\\Account.cs",
               "RelativeToolTip": "EncapsulationIntro\\Account.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAewCoAAAAAAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAAewCcAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-05T07:31:36.11Z",
               "EditorCaption": ""

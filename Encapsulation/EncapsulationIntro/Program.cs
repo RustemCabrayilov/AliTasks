@@ -29,6 +29,10 @@
 			account.Withdraw(20000);
             Console.WriteLine(account.GetBalance());
 
-        }
+			Account account1 = null;
+			Console.WriteLine(account1.GetBalance());
+
+
+		}
 	}
 }
