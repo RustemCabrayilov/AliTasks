@@ -1,0 +1,15 @@
+C:\Users\Nijat\OneDrive\Desktop\Ali\Extensions\CollectionsG\bin\Debug\net7.0\CollectionsG.exe
+C:\Users\Nijat\OneDrive\Desktop\Ali\Extensions\CollectionsG\bin\Debug\net7.0\CollectionsG.deps.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\Extensions\CollectionsG\bin\Debug\net7.0\CollectionsG.runtimeconfig.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\Extensions\CollectionsG\bin\Debug\net7.0\CollectionsG.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\Extensions\CollectionsG\bin\Debug\net7.0\CollectionsG.pdb
+C:\Users\Nijat\OneDrive\Desktop\Ali\Extensions\CollectionsG\obj\Debug\net7.0\CollectionsG.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nijat\OneDrive\Desktop\Ali\Extensions\CollectionsG\obj\Debug\net7.0\CollectionsG.AssemblyInfoInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\Extensions\CollectionsG\obj\Debug\net7.0\CollectionsG.AssemblyInfo.cs
+C:\Users\Nijat\OneDrive\Desktop\Ali\Extensions\CollectionsG\obj\Debug\net7.0\CollectionsG.csproj.CoreCompileInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\Extensions\CollectionsG\obj\Debug\net7.0\CollectionsG.sourcelink.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\Extensions\CollectionsG\obj\Debug\net7.0\CollectionsG.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\Extensions\CollectionsG\obj\Debug\net7.0\refint\CollectionsG.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\Extensions\CollectionsG\obj\Debug\net7.0\CollectionsG.pdb
+C:\Users\Nijat\OneDrive\Desktop\Ali\Extensions\CollectionsG\obj\Debug\net7.0\CollectionsG.genruntimeconfig.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\Extensions\CollectionsG\obj\Debug\net7.0\ref\CollectionsG.dll
