@@ -1,0 +1,15 @@
+C:\Users\Nijat\OneDrive\Desktop\Ali\Files\HomeTask\bin\Debug\net7.0\HomeTask.exe
+C:\Users\Nijat\OneDrive\Desktop\Ali\Files\HomeTask\bin\Debug\net7.0\HomeTask.deps.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\Files\HomeTask\bin\Debug\net7.0\HomeTask.runtimeconfig.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\Files\HomeTask\bin\Debug\net7.0\HomeTask.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\Files\HomeTask\bin\Debug\net7.0\HomeTask.pdb
+C:\Users\Nijat\OneDrive\Desktop\Ali\Files\HomeTask\obj\Debug\net7.0\HomeTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nijat\OneDrive\Desktop\Ali\Files\HomeTask\obj\Debug\net7.0\HomeTask.AssemblyInfoInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\Files\HomeTask\obj\Debug\net7.0\HomeTask.AssemblyInfo.cs
+C:\Users\Nijat\OneDrive\Desktop\Ali\Files\HomeTask\obj\Debug\net7.0\HomeTask.csproj.CoreCompileInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\Files\HomeTask\obj\Debug\net7.0\HomeTask.sourcelink.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\Files\HomeTask\obj\Debug\net7.0\HomeTask.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\Files\HomeTask\obj\Debug\net7.0\refint\HomeTask.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\Files\HomeTask\obj\Debug\net7.0\HomeTask.pdb
+C:\Users\Nijat\OneDrive\Desktop\Ali\Files\HomeTask\obj\Debug\net7.0\HomeTask.genruntimeconfig.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\Files\HomeTask\obj\Debug\net7.0\ref\HomeTask.dll

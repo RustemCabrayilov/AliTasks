@@ -1,0 +1,15 @@
+C:\Users\Nijat\OneDrive\Desktop\Ali\Files\DelegateTasks\bin\Debug\net7.0\DelegateTasks.exe
+C:\Users\Nijat\OneDrive\Desktop\Ali\Files\DelegateTasks\bin\Debug\net7.0\DelegateTasks.deps.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\Files\DelegateTasks\bin\Debug\net7.0\DelegateTasks.runtimeconfig.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\Files\DelegateTasks\bin\Debug\net7.0\DelegateTasks.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\Files\DelegateTasks\bin\Debug\net7.0\DelegateTasks.pdb
+C:\Users\Nijat\OneDrive\Desktop\Ali\Files\DelegateTasks\obj\Debug\net7.0\DelegateTasks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nijat\OneDrive\Desktop\Ali\Files\DelegateTasks\obj\Debug\net7.0\DelegateTasks.AssemblyInfoInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\Files\DelegateTasks\obj\Debug\net7.0\DelegateTasks.AssemblyInfo.cs
+C:\Users\Nijat\OneDrive\Desktop\Ali\Files\DelegateTasks\obj\Debug\net7.0\DelegateTasks.csproj.CoreCompileInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\Files\DelegateTasks\obj\Debug\net7.0\DelegateTasks.sourcelink.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\Files\DelegateTasks\obj\Debug\net7.0\DelegateTasks.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\Files\DelegateTasks\obj\Debug\net7.0\refint\DelegateTasks.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\Files\DelegateTasks\obj\Debug\net7.0\DelegateTasks.pdb
+C:\Users\Nijat\OneDrive\Desktop\Ali\Files\DelegateTasks\obj\Debug\net7.0\DelegateTasks.genruntimeconfig.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\Files\DelegateTasks\obj\Debug\net7.0\ref\DelegateTasks.dll
