@@ -1,0 +1,15 @@
+C:\Users\Nijat\OneDrive\Desktop\Ali\SingleNumber\SingleNumber\bin\Debug\net7.0\SingleNumber.exe
+C:\Users\Nijat\OneDrive\Desktop\Ali\SingleNumber\SingleNumber\bin\Debug\net7.0\SingleNumber.deps.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\SingleNumber\SingleNumber\bin\Debug\net7.0\SingleNumber.runtimeconfig.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\SingleNumber\SingleNumber\bin\Debug\net7.0\SingleNumber.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\SingleNumber\SingleNumber\bin\Debug\net7.0\SingleNumber.pdb
+C:\Users\Nijat\OneDrive\Desktop\Ali\SingleNumber\SingleNumber\obj\Debug\net7.0\SingleNumber.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nijat\OneDrive\Desktop\Ali\SingleNumber\SingleNumber\obj\Debug\net7.0\SingleNumber.AssemblyInfoInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\SingleNumber\SingleNumber\obj\Debug\net7.0\SingleNumber.AssemblyInfo.cs
+C:\Users\Nijat\OneDrive\Desktop\Ali\SingleNumber\SingleNumber\obj\Debug\net7.0\SingleNumber.csproj.CoreCompileInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\SingleNumber\SingleNumber\obj\Debug\net7.0\SingleNumber.sourcelink.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\SingleNumber\SingleNumber\obj\Debug\net7.0\SingleNumber.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\SingleNumber\SingleNumber\obj\Debug\net7.0\refint\SingleNumber.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\SingleNumber\SingleNumber\obj\Debug\net7.0\SingleNumber.pdb
+C:\Users\Nijat\OneDrive\Desktop\Ali\SingleNumber\SingleNumber\obj\Debug\net7.0\SingleNumber.genruntimeconfig.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\SingleNumber\SingleNumber\obj\Debug\net7.0\ref\SingleNumber.dll
