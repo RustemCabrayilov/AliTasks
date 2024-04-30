@@ -1,0 +1,15 @@
+C:\Users\Nijat\OneDrive\Desktop\Ali\SyncAsyncThread\SyncAsyncThread\bin\Debug\net7.0\SyncAsyncThread.exe
+C:\Users\Nijat\OneDrive\Desktop\Ali\SyncAsyncThread\SyncAsyncThread\bin\Debug\net7.0\SyncAsyncThread.deps.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\SyncAsyncThread\SyncAsyncThread\bin\Debug\net7.0\SyncAsyncThread.runtimeconfig.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\SyncAsyncThread\SyncAsyncThread\bin\Debug\net7.0\SyncAsyncThread.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\SyncAsyncThread\SyncAsyncThread\bin\Debug\net7.0\SyncAsyncThread.pdb
+C:\Users\Nijat\OneDrive\Desktop\Ali\SyncAsyncThread\SyncAsyncThread\obj\Debug\net7.0\SyncAsyncThread.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nijat\OneDrive\Desktop\Ali\SyncAsyncThread\SyncAsyncThread\obj\Debug\net7.0\SyncAsyncThread.AssemblyInfoInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\SyncAsyncThread\SyncAsyncThread\obj\Debug\net7.0\SyncAsyncThread.AssemblyInfo.cs
+C:\Users\Nijat\OneDrive\Desktop\Ali\SyncAsyncThread\SyncAsyncThread\obj\Debug\net7.0\SyncAsyncThread.csproj.CoreCompileInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\SyncAsyncThread\SyncAsyncThread\obj\Debug\net7.0\SyncAsyncThread.sourcelink.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\SyncAsyncThread\SyncAsyncThread\obj\Debug\net7.0\SyncAsyncThread.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\SyncAsyncThread\SyncAsyncThread\obj\Debug\net7.0\refint\SyncAsyncThread.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\SyncAsyncThread\SyncAsyncThread\obj\Debug\net7.0\SyncAsyncThread.pdb
+C:\Users\Nijat\OneDrive\Desktop\Ali\SyncAsyncThread\SyncAsyncThread\obj\Debug\net7.0\SyncAsyncThread.genruntimeconfig.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\SyncAsyncThread\SyncAsyncThread\obj\Debug\net7.0\ref\SyncAsyncThread.dll
