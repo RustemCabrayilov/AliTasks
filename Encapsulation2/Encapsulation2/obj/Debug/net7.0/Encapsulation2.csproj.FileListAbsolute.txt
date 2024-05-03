@@ -1,0 +1,15 @@
+C:\Users\Nijat\OneDrive\Desktop\Ali\Encapsulation2\Encapsulation2\bin\Debug\net7.0\Encapsulation2.exe
+C:\Users\Nijat\OneDrive\Desktop\Ali\Encapsulation2\Encapsulation2\bin\Debug\net7.0\Encapsulation2.deps.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\Encapsulation2\Encapsulation2\bin\Debug\net7.0\Encapsulation2.runtimeconfig.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\Encapsulation2\Encapsulation2\bin\Debug\net7.0\Encapsulation2.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\Encapsulation2\Encapsulation2\bin\Debug\net7.0\Encapsulation2.pdb
+C:\Users\Nijat\OneDrive\Desktop\Ali\Encapsulation2\Encapsulation2\obj\Debug\net7.0\Encapsulation2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nijat\OneDrive\Desktop\Ali\Encapsulation2\Encapsulation2\obj\Debug\net7.0\Encapsulation2.AssemblyInfoInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\Encapsulation2\Encapsulation2\obj\Debug\net7.0\Encapsulation2.AssemblyInfo.cs
+C:\Users\Nijat\OneDrive\Desktop\Ali\Encapsulation2\Encapsulation2\obj\Debug\net7.0\Encapsulation2.csproj.CoreCompileInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\Encapsulation2\Encapsulation2\obj\Debug\net7.0\Encapsulation2.sourcelink.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\Encapsulation2\Encapsulation2\obj\Debug\net7.0\Encapsulation2.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\Encapsulation2\Encapsulation2\obj\Debug\net7.0\refint\Encapsulation2.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\Encapsulation2\Encapsulation2\obj\Debug\net7.0\Encapsulation2.pdb
+C:\Users\Nijat\OneDrive\Desktop\Ali\Encapsulation2\Encapsulation2\obj\Debug\net7.0\Encapsulation2.genruntimeconfig.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\Encapsulation2\Encapsulation2\obj\Debug\net7.0\ref\Encapsulation2.dll
