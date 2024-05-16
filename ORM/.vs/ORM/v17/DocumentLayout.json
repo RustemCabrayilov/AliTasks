@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\ORM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B2B85691-4640-4B24-A600-D696D63E3FB2}|ORM\\ORM.csproj|c:\\users\\nijat\\onedrive\\desktop\\ali\\orm\\orm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2B85691-4640-4B24-A600-D696D63E3FB2}|ORM\\ORM.csproj|solutionrelative:orm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2B85691-4640-4B24-A600-D696D63E3FB2}|ORM\\ORM.csproj|c:\\users\\nijat\\onedrive\\desktop\\ali\\orm\\orm\\context\\smdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2B85691-4640-4B24-A600-D696D63E3FB2}|ORM\\ORM.csproj|solutionrelative:orm\\context\\smdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2B85691-4640-4B24-A600-D696D63E3FB2}|ORM\\ORM.csproj|c:\\users\\nijat\\onedrive\\desktop\\ali\\orm\\orm\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2B85691-4640-4B24-A600-D696D63E3FB2}|ORM\\ORM.csproj|solutionrelative:orm\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\ORM\\ORM\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "ORM\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\ORM\\ORM\\Models\\Student.cs",
+              "RelativeToolTip": "ORM\\Models\\Student.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T09:31:22.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\ORM\\ORM\\Program.cs",
+              "RelativeDocumentMoniker": "ORM\\Program.cs",
+              "ToolTip": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\ORM\\ORM\\Program.cs",
+              "RelativeToolTip": "ORM\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T09:19:53.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SMDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\ORM\\ORM\\Context\\SMDbContext.cs",
+              "RelativeDocumentMoniker": "ORM\\Context\\SMDbContext.cs",
+              "ToolTip": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\ORM\\ORM\\Context\\SMDbContext.cs",
+              "RelativeToolTip": "ORM\\Context\\SMDbContext.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBAAAACVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T09:49:59.992Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
