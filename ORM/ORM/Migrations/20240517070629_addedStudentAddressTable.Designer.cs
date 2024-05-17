@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ORM.Context;
 
@@ -10,9 +11,11 @@ using ORM.Context;
 namespace ORM.Migrations
 {
     [DbContext(typeof(SMDbContext))]
-    partial class SMDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240517070629_addedStudentAddressTable")]
+    partial class addedStudentAddressTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -36,28 +39,6 @@ namespace ORM.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Groups");
-                });
-
-            modelBuilder.Entity("ORM.Models.Order", b =>
-                {
-                    b.Property<int>("OrderNumber")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OrderNumber"));
-
-                    b.Property<string>("Description")
-                        .HasMaxLength(200)
-                        .HasColumnType("nvarchar(200)");
-
-                    b.Property<int>("TelebeId")
-                        .HasColumnType("int");
-
-                    b.HasKey("OrderNumber");
-
-                    b.HasIndex("TelebeId");
-
-                    b.ToTable("Orders");
                 });
 
             modelBuilder.Entity("ORM.Models.Student", b =>
@@ -119,17 +100,6 @@ namespace ORM.Migrations
                         .IsUnique();
 
                     b.ToTable("StudentAddress");
-                });
-
-            modelBuilder.Entity("ORM.Models.Order", b =>
-                {
-                    b.HasOne("ORM.Models.Student", "Student")
-                        .WithMany()
-                        .HasForeignKey("TelebeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Student");
                 });
 
             modelBuilder.Entity("ORM.Models.Student", b =>

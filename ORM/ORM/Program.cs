@@ -54,7 +54,6 @@ namespace ORM
 				//            }
 
 				#endregion
-
 				#region UpdateRemove
 
 				//var student = context.Students.Where(s => s.Id ==6).FirstOrDefault();
@@ -64,18 +63,90 @@ namespace ORM
 				//context.SaveChanges();
 
 
-				var student = context.Students.Where(s=>s.Id ==7).FirstOrDefault();
-				if (student != null)
-				{
-                    Console.WriteLine(context.Entry(student).State);
-					student.Name = "ALi";
-					Console.WriteLine(context.Entry(student).State);
+				//var student = context.Students.Where(s=>s.Id ==7).FirstOrDefault();
+				//if (student != null)
+				//{
+				//                Console.WriteLine(context.Entry(student).State);
+				//	student.Name = "ALi";
+				//	Console.WriteLine(context.Entry(student).State);
 
 
-					context.SaveChanges();
-					Console.WriteLine(context.Entry(student).State);
+				//	context.SaveChanges();
+				//	Console.WriteLine(context.Entry(student).State);
 
-				}
+				//}
+
+
+				#endregion
+
+				#region Conventions
+
+				//Group group = new Group()
+				//{
+				//	GroupName = "PB101"
+				//};
+				//Group group2 = new Group()
+				//{
+				//	GroupName = "PF501"
+				//};
+
+
+				//context.Groups.AddRange(group,group2);
+
+
+				//Group group = context.Groups.Where(g => g.GroupName == "PB101").FirstOrDefault();
+				//if (group != null)
+				//{
+				//	Student student = new Student()
+				//	{
+				//		Name = "Nijat",
+				//		Surname = "Soltanov",
+				//		GroupId = group.Id,
+				//	};
+				//	context.Add(student);
+				//	context.SaveChanges();
+
+				//}
+
+				//Student student = context.Students.Where(s => s.Id == 9).FirstOrDefault();
+
+				//StudentAddress studentAddress = new StudentAddress()
+				//{
+				//	Country = "Azerbaijan",
+				//	City = "Baku",
+				//	State = "Savalan",
+				//	Address = "Adress123",
+				//	Student = student
+				//	//StudentId = student.Id
+				//};
+				//context.Add(studentAddress);
+				//context.SaveChanges();
+
+
+				//Group group = new Group()
+				//{
+				//	GroupName = "P136",
+				//	Students = new List<Student>()
+				//	{
+				//		new Student()
+				//		{
+				//			Name = "Isa",
+				//			Surname= "Sadigov",
+				//			studentAddress = new StudentAddress()
+				//			{
+				//					Country = "Azerbaijan",
+				//                    City = "Baku",
+				//            	    State = "Xalqlar",
+				//              	    Address = "Adress123",
+				//			}
+				//		},
+				//	}
+				//};
+				//context.Groups.Add(group);
+				//context.SaveChanges();
+
+
+
 
 
 				#endregion

@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\ORM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B2B85691-4640-4B24-A600-D696D63E3FB2}|ORM\\ORM.csproj|c:\\users\\nijat\\onedrive\\desktop\\ali\\orm\\orm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2B85691-4640-4B24-A600-D696D63E3FB2}|ORM\\ORM.csproj|solutionrelative:orm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2B85691-4640-4B24-A600-D696D63E3FB2}|ORM\\ORM.csproj|c:\\users\\nijat\\onedrive\\desktop\\ali\\orm\\orm\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2B85691-4640-4B24-A600-D696D63E3FB2}|ORM\\ORM.csproj|solutionrelative:orm\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2B85691-4640-4B24-A600-D696D63E3FB2}|ORM\\ORM.csproj|c:\\users\\nijat\\onedrive\\desktop\\ali\\orm\\orm\\context\\smdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2B85691-4640-4B24-A600-D696D63E3FB2}|ORM\\ORM.csproj|solutionrelative:orm\\context\\smdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2B85691-4640-4B24-A600-D696D63E3FB2}|ORM\\ORM.csproj|c:\\users\\nijat\\onedrive\\desktop\\ali\\orm\\orm\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2B85691-4640-4B24-A600-D696D63E3FB2}|ORM\\ORM.csproj|solutionrelative:orm\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\ORM\\ORM\\Migrations\\20240517074809_updatedOrderTableWithLegth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ORM\\Migrations\\20240517074809_updatedOrderTableWithLegth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,41 +30,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\ORM\\ORM\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "ORM\\Models\\Student.cs",
-              "ToolTip": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\ORM\\ORM\\Models\\Student.cs",
-              "RelativeToolTip": "ORM\\Models\\Student.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAA/AAAA",
+              "DocumentIndex": 1,
+              "Title": "20240517074809_updatedOrderTableWithLegth.cs",
+              "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\ORM\\ORM\\Migrations\\20240517074809_updatedOrderTableWithLegth.cs",
+              "RelativeDocumentMoniker": "ORM\\Migrations\\20240517074809_updatedOrderTableWithLegth.cs",
+              "ToolTip": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\ORM\\ORM\\Migrations\\20240517074809_updatedOrderTableWithLegth.cs",
+              "RelativeToolTip": "ORM\\Migrations\\20240517074809_updatedOrderTableWithLegth.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T09:31:22.088Z",
+              "WhenOpened": "2024-05-17T07:48:10.166Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\ORM\\ORM\\Program.cs",
-              "RelativeDocumentMoniker": "ORM\\Program.cs",
-              "ToolTip": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\ORM\\ORM\\Program.cs",
-              "RelativeToolTip": "ORM\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAKAAAA",
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\ORM\\ORM\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "ORM\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\ORM\\ORM\\Models\\Order.cs",
+              "RelativeToolTip": "ORM\\Models\\Order.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwA8AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T09:19:53.06Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SMDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\ORM\\ORM\\Context\\SMDbContext.cs",
-              "RelativeDocumentMoniker": "ORM\\Context\\SMDbContext.cs",
-              "ToolTip": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\ORM\\ORM\\Context\\SMDbContext.cs",
-              "RelativeToolTip": "ORM\\Context\\SMDbContext.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBAAAACVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T09:49:59.992Z",
+              "WhenOpened": "2024-05-17T07:45:44.283Z",
               "EditorCaption": ""
             }
           ]

@@ -11,6 +11,8 @@ namespace ORM.Context
 	public class SMDbContext : DbContext
 	{
 		public DbSet<Student> Students { get; set; }
+		public DbSet<Group> Groups { get; set; }
+		public DbSet<Order> Orders { get; set; }
 
 		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 		{
