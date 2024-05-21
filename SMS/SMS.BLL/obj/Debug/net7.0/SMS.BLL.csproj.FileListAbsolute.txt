@@ -1,0 +1,16 @@
+C:\Users\Nijat\OneDrive\Desktop\Ali\SMS\SMS.BLL\bin\Debug\net7.0\SMS.BLL.deps.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\SMS\SMS.BLL\bin\Debug\net7.0\SMS.BLL.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\SMS\SMS.BLL\bin\Debug\net7.0\SMS.BLL.pdb
+C:\Users\Nijat\OneDrive\Desktop\Ali\SMS\SMS.BLL\bin\Debug\net7.0\SMS.DAL.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\SMS\SMS.BLL\bin\Debug\net7.0\SMS.DAL.pdb
+C:\Users\Nijat\OneDrive\Desktop\Ali\SMS\SMS.BLL\obj\Debug\net7.0\SMS.BLL.csproj.AssemblyReference.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\SMS\SMS.BLL\obj\Debug\net7.0\SMS.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nijat\OneDrive\Desktop\Ali\SMS\SMS.BLL\obj\Debug\net7.0\SMS.BLL.AssemblyInfoInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\SMS\SMS.BLL\obj\Debug\net7.0\SMS.BLL.AssemblyInfo.cs
+C:\Users\Nijat\OneDrive\Desktop\Ali\SMS\SMS.BLL\obj\Debug\net7.0\SMS.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\Ali\SMS\SMS.BLL\obj\Debug\net7.0\SMS.BLL.sourcelink.json
+C:\Users\Nijat\OneDrive\Desktop\Ali\SMS\SMS.BLL\obj\Debug\net7.0\SMS.BLL.csproj.Up2Date
+C:\Users\Nijat\OneDrive\Desktop\Ali\SMS\SMS.BLL\obj\Debug\net7.0\SMS.BLL.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\SMS\SMS.BLL\obj\Debug\net7.0\refint\SMS.BLL.dll
+C:\Users\Nijat\OneDrive\Desktop\Ali\SMS\SMS.BLL\obj\Debug\net7.0\SMS.BLL.pdb
+C:\Users\Nijat\OneDrive\Desktop\Ali\SMS\SMS.BLL\obj\Debug\net7.0\ref\SMS.BLL.dll
