@@ -13,5 +13,9 @@ namespace SMS.App.Models
 		public string Surname { get; set; }
 		public int GroupId { get; set; }
 		public Group Group { get; set; }
+		public override string ToString()
+		{
+			return "Name:" + Name + " Surname:" + Surname + " Group Number:"+ Group.Name;
+		}
 	}
 }

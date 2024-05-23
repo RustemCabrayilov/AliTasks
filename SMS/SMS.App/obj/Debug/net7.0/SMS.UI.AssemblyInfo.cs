@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SMS.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a1c23337f9057e5032f530e783501496cb48b64")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e22120f4940809b575ec71f5c5b321d8d5f497a")]
 [assembly: System.Reflection.AssemblyProductAttribute("SMS.UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SMS.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

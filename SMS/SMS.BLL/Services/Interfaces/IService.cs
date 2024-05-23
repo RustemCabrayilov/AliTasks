@@ -8,10 +8,10 @@ namespace SMS.App.Services.Interfaces
 {
 	public interface IService
 	{
-		public void Add();
-		public void Update();
-		public void Remove();
-		public void Get();
-		public void GetAll();
+		public Task AddAsync();
+		public Task UpdateAsync();
+		public Task RemoveAsync();
+		public Task GetAsync();
+		public Task GetAllAsync();
 	}
 }

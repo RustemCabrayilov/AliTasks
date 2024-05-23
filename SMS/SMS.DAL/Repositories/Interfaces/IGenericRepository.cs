@@ -9,11 +9,12 @@ namespace SMS.App.Repositories.Interfaces
 {
 	public interface IGenericRepository<T> where T : BaseEntity
 	{
-		public T Add(T entity);
+		public Task<T> AddAsync(T entity);
 		public void Update(T entity);
-		public void Delete(int id);
-		public List<T> GetAll();
-		public T GetById(int id);
+		public Task DeleteAsync(int id);
+		public Task<List<T>> GetAllAsync(params string[] includes);
+		public Task<T> GetByIdAsync(int id,params string[] includes);
 		public void Save();
+		public Task SaveAsync();
 	}
 }

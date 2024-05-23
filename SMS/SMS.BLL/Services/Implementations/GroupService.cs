@@ -17,7 +17,7 @@ namespace SMS.App.Services.Implementations
 		{
 			_groupRepository = new GroupRepository();
 		}
-		public void Add()
+		public async Task AddAsync()
 		{
 			Console.Write("Enter Group Name:");
 			string name = Console.ReadLine();
@@ -27,15 +27,15 @@ namespace SMS.App.Services.Implementations
 				Name = name,
 				CreatedAt = DateTime.Now,
 			};
-			_groupRepository.Add(group);
-			_groupRepository.Save();
+			await _groupRepository.AddAsync(group);
+			await _groupRepository.SaveAsync();
 		}
 
-		public void Get()
+		public async Task GetAsync()
 		{
 			Console.Write("Enter Group Id:");
 			int.TryParse(Console.ReadLine(), out int id);
-			Group group = _groupRepository.GetById(id);
+			Group group = await _groupRepository.GetByIdAsync(id);
 			if (group == null)
 			{
 				Console.WriteLine("Group not found");
@@ -44,29 +44,29 @@ namespace SMS.App.Services.Implementations
 			Console.WriteLine(group);
 		}
 
-		public void GetAll()
+		public async Task GetAllAsync()
 		{
-			List<Group> groups = _groupRepository.GetAll();
+			List<Group> groups = await _groupRepository.GetAllAsync();
 			foreach (Group group in groups)
 			{
 				Console.WriteLine(group);
 			}
 		}
 
-		public void Remove()
+		public async Task RemoveAsync()
 		{
 			Console.Write("Enter Group Id:");
 			int.TryParse(Console.ReadLine(), out int id);
-			_groupRepository.Delete(id);
-			_groupRepository.Save();
+			await _groupRepository.DeleteAsync(id);
+			await _groupRepository.SaveAsync();
 		}
 
-		public void Update()
+		public async Task UpdateAsync()
 		{
 			Console.Write("Enter Group Id:");
 			int.TryParse(Console.ReadLine(), out int id);
 
-			Group group = _groupRepository.GetById(id);
+			Group group = await _groupRepository.GetByIdAsync(id);
 			if (group == null)
 			{
 				Console.WriteLine("Group not found");
@@ -81,7 +81,7 @@ namespace SMS.App.Services.Implementations
 			group.UpdatedAt = DateTime.Now;
 
 			_groupRepository.Update(group);
-			_groupRepository.Save();
+			await _groupRepository.SaveAsync();
 
 		}
 	}
