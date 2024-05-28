@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#aqua-div {
+  background-color: aqua;
+}
+#bisque-div {
+  background-color: bisque;
+}
+.info-div {
+  float: left;
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  padding: 30px;
+}
+#aqua-div p {
+  font-size: larger;
+}
+
+.username {
+  color: cadetblue;
+}
+.black-background {
+  background-color: black;
+}
+/* #black-username {
+  background-color: red;
+} */
+/* p {
+  display: inline-block;
+} */

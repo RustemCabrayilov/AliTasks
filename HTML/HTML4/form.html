@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="#" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <label for="firstname">First name</label>
+      <input type="text" id="firstname" />
+      <!-- <input type="password" />
+      <input type="email" />
+      <input type="radio" />
+      <input type="checkbox" /> -->
+      <br />
+      <input type="checkbox" name="web-radios" id="html" />
+      <label for="html">HTML</label>
+      <input type="checkbox" name="web-radios" id="css" />
+      <label for="css">CSS</label>
+      <input type="checkbox" name="web-radios" id="js" />
+      <label for="js">Javascript</label>
+      <br />
+      <label for="car-select">Select own car</label>
+      <select id="car-select">
+        <option value="Mercedes">Mercedes</option>
+        <option value="BMW">BMW</option>
+        <option value="Opel">Opel</option>
+        <option value="Hyundai">Hyundai</option>
+        <option selected value="Kia">Kia</option>
+      </select>
+      <br />
+
+      <input
+        type="color"
+        id="color-select"
+        style="width: 200px; height: 20px"
+      />
+
+      <textarea
+        name=""
+        id=""
+        style="max-width: 200px; min-width: 100px"
+      ></textarea>
+
+      <button style="background-color: red; width: 70px; height: 30px">
+        Register
+      </button>
+
+      <br />
+      <br /><br /><br />
+      <label for="name">Enter Name</label>
+      <input type="text" id="name" value="Ali" maxlength="10" />
+      <input type="text" id="surname" placeholder="Surname" required />
+
+      <video width="320" height="240" controls autoplay muted>
+        <source src="./Videos/ПОДАРИ - V $ X V PRiNCE.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      <audio controls>
+        <source src="./Audios/Roya & Tunar - Yollar.mp3" type="audio/mp3" />
+        Your browser does not support the audio element.
+      </audio>
+
+      <script>
+        document.getElementById("name").addEventListener("click", () => {
+          console.log(document.getElementById("name").value);
+        });
+      </script>
+    </form>
+  </body>
+</html>
