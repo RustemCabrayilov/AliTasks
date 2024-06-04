@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: center;
+}
+p,
+h1,
+h2 {
+  color: red;
+}
+
+h1.center {
+  text-align: center;
+}
+.circle {
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  display: inline-block;
+  background-image: url(./Images/image.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: 2px outset black;
+}
+.square {
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  border: 2px solid black;
+}
+.blue,
+.red,
+.green {
+  height: 100px;
+}
+.blue {
+  background-color: blue;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+a {
+  text-decoration-line: line-through;
+  text-decoration-color: brown;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1;
+  /* white-space: nowrap; */
+
+  color: pink;
+}
