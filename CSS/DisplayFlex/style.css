@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  position: sticky !important;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  height: 100px;
+}
+.containers {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.square {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  transition: 1s;
+  z-index: 0;
+}
+.square:hover {
+  transform: scale(1.1);
+}
+.buttons {
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.buttons button {
+  background-color: pink;
+
+  border: none;
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  color: #fff;
+  transition: 1s;
+}
+.buttons input {
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 1px solid pink;
+  color: pink;
+  width: 250px;
+  transition: ease-in-out, width 0.5s ease-in-out;
+}
+.buttons button:hover {
+  transform: scale(1.1);
+  background-color: deeppink;
+}
+.buttons input::placeholder {
+  color: deeppink;
+}
+.buttons input:focus {
+  outline: none;
+  width: 300px;
+}
+/* .square:nth-child(5) {
+  position: relative;
+} */
+/* .circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: deeppink;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  z-index: 2;
+}
+.circle2 {
+  width: 100px;
+  z-index: 1;
+  height: 100px;
+  border-radius: 50%;
+  background-color: black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+} */
