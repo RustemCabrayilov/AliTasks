@@ -1,0 +1,16 @@
+@use "mixins";
+@use "variables";
+body {
+  background-color: variables.$qarareng;
+  font-size: variables.$size;
+}
+
+.circle1 {
+  @include mixins.circle(150px, variables.$green);
+  .circle2 {
+    @include mixins.circle(100px, variables.$red);
+    .circle3 {
+      @include mixins.circle(50px, variables.$blue);
+    }
+  }
+}
