@@ -7,6 +7,9 @@
 body {
   font-family: "Inter", sans-serif;
 }
+body::-webkit-scrollbar {
+  display: none;
+}
 
 nav {
   padding: 20px 160px;
@@ -127,4 +130,408 @@ nav .nav_container .nav_container_right button:last-child {
 #buttons .button_container button:last-child {
   background-color: transparent;
   color: rgb(95, 109, 126);
+}
+
+#cards {
+  margin: 64px 0;
+  display: flex;
+  justify-content: center;
+}
+#cards .card_container {
+  padding: 0px, 32px;
+  display: flex;
+  gap: 32px;
+}
+#cards .card_container .card {
+  border-radius: 5px;
+  border: 1px solid #eaebf0;
+  padding: 32px;
+  display: flex;
+  gap: 32px;
+  width: 384px;
+  height: 466px;
+  flex-direction: column;
+}
+#cards .card_container .card button {
+  border-radius: 6px;
+  width: 320px;
+  padding: 12px, 18px;
+  height: 46px;
+  background-color: #437ef7;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+#cards .card_container .card .text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+#cards .card_container .card .text .text_price {
+  display: flex;
+  align-items: center;
+}
+#cards .card_container .card .text .text_price p:first-child {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -2%;
+  color: #272d37;
+}
+#cards .card_container .card .text .text_price p:last-child {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #5f6d7e;
+}
+#cards .card_container .card .text .text_info {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+}
+#cards .card_container .card .text .text_info .text_info_head {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
+#cards .card_container .card .text .text_info .text_info_head h4 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -2%;
+  color: #272d37;
+}
+#cards .card_container .card .text .text_info .text_info_head p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  color: #5f6d7e;
+}
+#cards .card_container .card .text .text_info hr {
+  border: 1px solid #eaebf0;
+  width: 100%;
+}
+#cards .card_container .card .text .text_info .text_info_bottom {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+}
+#cards .card_container .card .text .text_info .text_info_bottom .radio {
+  display: flex;
+  gap: 12px;
+}
+#cards .card_container .card .text .text_info .text_info_bottom .radio p {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+}
+#cards .card_container .card .text .text_info .text_info_bottom .radio img {
+  width: 20px;
+  height: 20px;
+}
+
+#message {
+  padding: 64px 0;
+  display: flex;
+  gap: 64px;
+  flex-direction: column;
+  justify-content: center;
+}
+#message .header_container {
+  padding: 0 32px;
+  display: flex;
+  justify-content: center;
+}
+#message .header_container .header {
+  width: 800px;
+  height: 80px;
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+#message .header_container .header h2 {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700;
+  letter-spacing: -2%;
+  color: rgb(39, 45, 55);
+}
+#message .header_container .header p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: -0.1px;
+  color: rgb(95, 109, 126);
+}
+#message .body {
+  padding: 0 32px;
+  display: flex;
+  row-gap: 64px;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#message .body .message_card {
+  width: 384px;
+  height: 182px;
+  border-radius: 5px;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+}
+#message .body .message_card img {
+  height: 48px;
+  width: 48px;
+}
+#message .body .message_card .text {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+}
+#message .body .message_card .text h3 {
+  line-height: 30px;
+  font-weight: 600;
+  font-size: 22px;
+  letter-spacing: -1%;
+  color: rgb(39, 45, 55);
+}
+#message .body .message_card .text p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: -0.1px;
+  color: rgb(95, 109, 126);
+}
+
+#plan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+  padding: 64px 0;
+  background-color: rgb(21, 27, 40);
+}
+#plan .head_container {
+  display: flex;
+  justify-content: center;
+}
+#plan .head_container .head {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 16px;
+}
+#plan .head_container .head h2 {
+  font-weight: 700;
+  color: rgb(249, 249, 249);
+  font-size: 32px;
+  line-height: 40px;
+}
+#plan .head_container .head p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: -0.1px;
+  color: rgb(95, 109, 126);
+  color: rgb(165, 172, 186);
+}
+#plan .body {
+  padding: 0px 32px;
+  width: 1280px;
+  color: rgb(249, 249, 249);
+}
+#plan .body table th,
+#plan .body table td {
+  text-align: start;
+  border-bottom: 1px solid rgb(46, 53, 69);
+  width: 304px;
+  padding: 16px 24px;
+  vertical-align: baseline;
+}
+#plan .body table th i,
+#plan .body table td i {
+  width: 24px;
+  height: 24px;
+  color: rgb(78, 116, 250);
+}
+#plan .body table th p:nth-child(2),
+#plan .body table td p:nth-child(2) {
+  margin-top: 6px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  color: rgb(165, 172, 186);
+}
+
+#testimonial {
+  padding: 64px 0;
+}
+#testimonial .testimonial_container {
+  padding: 0px 32px;
+  display: flex;
+  justify-content: center;
+}
+#testimonial .testimonial_container .text {
+  width: 728px;
+  padding: 32px 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+#testimonial .testimonial_container .text .stars img {
+  width: 24px;
+  height: 24px;
+}
+#testimonial .testimonial_container .text h4 {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: -1%;
+  color: rgb(39, 45, 55);
+}
+#testimonial .testimonial_container .text p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: -0.1px;
+  color: rgb(95, 109, 126);
+}
+#testimonial .testimonial_container .text .buttons {
+  display: flex;
+  gap: 8px;
+}
+#testimonial .testimonial_container .text .buttons button {
+  border-radius: 6px;
+  padding: 12px;
+  width: 46px;
+  height: 46px;
+  background-color: rgb(67, 126, 247);
+  border: none;
+}
+#testimonial .testimonial_container .text .buttons button i {
+  width: 22px;
+  height: 22px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+}
+#testimonial .testimonial_container .image {
+  width: 488px;
+  height: 368px;
+  border-radius: 10px;
+}
+#testimonial .testimonial_container .image img {
+  width: 100%;
+  height: 100%;
+}
+
+#faq {
+  padding: 64px 80px;
+  display: flex;
+  gap: 64px;
+  flex-direction: column;
+}
+#faq .head_container {
+  padding: 0px 32px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#faq .head_container .head {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  width: 800px;
+}
+#faq .head_container .head h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -2%;
+  color: rgb(39, 45, 55);
+}
+#faq .head_container .head p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: -0.1px;
+  color: rgb(95, 109, 126);
+}
+#faq .body {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#faq .body .question {
+  width: 632px;
+  height: 48px;
+  border-radius: 6px;
+  border: 1px solid rgb(218, 224, 230);
+  padding: 12px 24px;
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+  align-items: center;
+}
+#faq .body .question span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+}
+#faq .body .question i {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#calltoactoion {
+  padding: 64px 0;
+  background-color: rgb(43, 99, 217);
+  display: flex;
+  justify-content: center;
+}
+#calltoactoion .body {
+  width: 600px;
+  height: 162px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  flex-direction: column;
+  color: white;
+}
+#calltoactoion .body h3 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: -1px;
+  text-align: center;
+}
+#calltoactoion .body button {
+  width: 91px;
+  height: 46px;
+  border-radius: 6px;
+  padding: 12px 18px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: center;
+  border: none;
+  color: rgb(78, 116, 250);
 }
