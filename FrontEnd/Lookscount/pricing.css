@@ -15,6 +15,11 @@ nav {
   padding: 20px 160px;
   border-bottom: 1px solid rgb(234, 235, 240);
 }
+@media screen and (max-width: 1280px) {
+  nav {
+    padding: 16px;
+  }
+}
 nav .nav_container {
   padding: 0 32px;
   display: flex;
@@ -28,9 +33,20 @@ nav .nav_container .nav_container_left img {
   width: 160px;
   height: 40px;
 }
+@media screen and (max-width: 1280px) {
+  nav .nav_container .nav_container_left img {
+    width: 128px;
+    height: 32px;
+  }
+}
 nav .nav_container .nav_container_left .nav_menu {
   display: flex;
   gap: 32px;
+}
+@media screen and (max-width: 1280px) {
+  nav .nav_container .nav_container_left .nav_menu {
+    display: none;
+  }
 }
 nav .nav_container .nav_container_left .nav_menu a {
   font-weight: 600;
@@ -44,6 +60,11 @@ nav .nav_container .nav_container_left .nav_menu a {
 nav .nav_container .nav_container_right {
   display: flex;
   gap: 6px;
+}
+@media screen and (max-width: 1280px) {
+  nav .nav_container .nav_container_right {
+    display: none;
+  }
 }
 nav .nav_container .nav_container_right button {
   padding: 12px 18px;
@@ -61,14 +82,35 @@ nav .nav_container .nav_container_right button:last-child {
   background-color: rgb(67, 126, 247);
   color: white;
 }
+nav .nav_container i {
+  display: none;
+  width: 24px;
+  height: 24px;
+}
+@media screen and (max-width: 1280px) {
+  nav .nav_container i {
+    display: flex;
+    align-items: center;
+  }
+}
 
 #welcome {
   padding: 0 160px 64px;
+}
+@media screen and (max-width: 1280px) {
+  #welcome {
+    padding: 0;
+  }
 }
 #welcome .welcome_container {
   padding: 80px 30px 92px;
   display: flex;
   justify-content: center;
+}
+@media screen and (max-width: 1280px) {
+  #welcome .welcome_container {
+    padding: 48px 48px 88px 48px;
+  }
 }
 #welcome .welcome_container .text {
   display: flex;
@@ -137,10 +179,22 @@ nav .nav_container .nav_container_right button:last-child {
   display: flex;
   justify-content: center;
 }
+@media screen and (max-width: 1280px) {
+  #cards {
+    margin: 0;
+  }
+}
 #cards .card_container {
   padding: 0px, 32px;
   display: flex;
   gap: 32px;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 1280px) {
+  #cards .card_container {
+    padding: 40px 32px;
+    justify-content: center;
+  }
 }
 #cards .card_container .card {
   border-radius: 5px;
@@ -151,6 +205,11 @@ nav .nav_container .nav_container_right button:last-child {
   width: 384px;
   height: 466px;
   flex-direction: column;
+}
+@media screen and (max-width: 1280px) {
+  #cards .card_container .card {
+    width: 336px;
+  }
 }
 #cards .card_container .card button {
   border-radius: 6px;
@@ -166,6 +225,11 @@ nav .nav_container .nav_container_right button:last-child {
   align-items: center;
   justify-content: center;
   border: none;
+}
+@media screen and (max-width: 1280px) {
+  #cards .card_container .card button {
+    width: 272px;
+  }
 }
 #cards .card_container .card .text {
   display: flex;
@@ -243,10 +307,21 @@ nav .nav_container .nav_container_right button:last-child {
   flex-direction: column;
   justify-content: center;
 }
+@media screen and (max-width: 1280px) {
+  #message {
+    padding: 40px 32px;
+    gap: 32px;
+  }
+}
 #message .header_container {
   padding: 0 32px;
   display: flex;
   justify-content: center;
+}
+@media screen and (max-width: 1280px) {
+  #message .header_container {
+    padding: 0;
+  }
 }
 #message .header_container .header {
   width: 800px;
@@ -256,6 +331,11 @@ nav .nav_container .nav_container_right button:last-child {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+}
+@media screen and (max-width: 1280px) {
+  #message .header_container .header {
+    width: 704px;
+  }
 }
 #message .header_container .header h2 {
   font-size: 32px;
@@ -280,6 +360,12 @@ nav .nav_container .nav_container_right button:last-child {
   flex-wrap: wrap;
   justify-content: center;
 }
+@media screen and (max-width: 1280px) {
+  #message .body {
+    padding: 0;
+    row-gap: 48px;
+  }
+}
 #message .body .message_card {
   width: 384px;
   height: 182px;
@@ -287,6 +373,11 @@ nav .nav_container .nav_container_right button:last-child {
   display: flex;
   gap: 16px;
   flex-direction: column;
+}
+@media screen and (max-width: 1280px) {
+  #message .body .message_card {
+    width: 336px;
+  }
 }
 #message .body .message_card img {
   height: 48px;
@@ -320,6 +411,17 @@ nav .nav_container .nav_container_right button:last-child {
   padding: 64px 0;
   background-color: rgb(21, 27, 40);
 }
+@media screen and (max-width: 1280px) {
+  #plan {
+    padding: 40px 32px;
+    gap: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #plan {
+    overflow-x: scroll;
+  }
+}
 #plan .head_container {
   display: flex;
   justify-content: center;
@@ -330,6 +432,12 @@ nav .nav_container .nav_container_right button:last-child {
   flex-direction: column;
   text-align: center;
   gap: 16px;
+}
+@media screen and (max-width: 1280px) {
+  #plan .head_container .head {
+    width: 704px;
+    gap: 8px;
+  }
 }
 #plan .head_container .head h2 {
   font-weight: 700;
@@ -350,6 +458,12 @@ nav .nav_container .nav_container_right button:last-child {
   width: 1280px;
   color: rgb(249, 249, 249);
 }
+@media screen and (max-width: 1280px) {
+  #plan .body {
+    padding: 0;
+    width: 768px;
+  }
+}
 #plan .body table th,
 #plan .body table td {
   text-align: start;
@@ -357,6 +471,12 @@ nav .nav_container .nav_container_right button:last-child {
   width: 304px;
   padding: 16px 24px;
   vertical-align: baseline;
+}
+@media screen and (max-width: 1280px) {
+  #plan .body table th,
+  #plan .body table td {
+    width: 250px;
+  }
 }
 #plan .body table th i,
 #plan .body table td i {
@@ -377,10 +497,21 @@ nav .nav_container .nav_container_right button:last-child {
 #testimonial {
   padding: 64px 0;
 }
+@media screen and (max-width: 1280px) {
+  #testimonial {
+    padding: 40px 32px;
+  }
+}
 #testimonial .testimonial_container {
   padding: 0px 32px;
   display: flex;
   justify-content: center;
+}
+@media screen and (max-width: 1280px) {
+  #testimonial .testimonial_container {
+    padding: 0;
+    height: 464px;
+  }
 }
 #testimonial .testimonial_container .text {
   width: 728px;
@@ -388,6 +519,12 @@ nav .nav_container .nav_container_right button:last-child {
   display: flex;
   flex-direction: column;
   gap: 32px;
+}
+@media screen and (max-width: 1280px) {
+  #testimonial .testimonial_container .text {
+    width: 336px;
+    gap: 16px;
+  }
 }
 #testimonial .testimonial_container .text .stars img {
   width: 24px;
@@ -399,6 +536,13 @@ nav .nav_container .nav_container_right button:last-child {
   line-height: 38px;
   letter-spacing: -1%;
   color: rgb(39, 45, 55);
+}
+@media screen and (max-width: 1280px) {
+  #testimonial .testimonial_container .text h4 {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 600;
+  }
 }
 #testimonial .testimonial_container .text p {
   font-size: 16px;
@@ -433,6 +577,12 @@ nav .nav_container .nav_container_right button:last-child {
   height: 368px;
   border-radius: 10px;
 }
+@media screen and (max-width: 1280px) {
+  #testimonial .testimonial_container .image {
+    width: 336px;
+    height: 464px;
+  }
+}
 #testimonial .testimonial_container .image img {
   width: 100%;
   height: 100%;
@@ -444,11 +594,21 @@ nav .nav_container .nav_container_right button:last-child {
   gap: 64px;
   flex-direction: column;
 }
+@media screen and (max-width: 1280px) {
+  #faq {
+    padding: 40px 32px;
+  }
+}
 #faq .head_container {
   padding: 0px 32px;
   display: flex;
   justify-content: center;
   text-align: center;
+}
+@media screen and (max-width: 1280px) {
+  #faq .head_container {
+    padding: 0;
+  }
 }
 #faq .head_container .head {
   display: flex;
@@ -478,7 +638,7 @@ nav .nav_container .nav_container_right button:last-child {
 }
 #faq .body .question {
   width: 632px;
-  height: 48px;
+  min-height: 48px;
   border-radius: 6px;
   border: 1px solid rgb(218, 224, 230);
   padding: 12px 24px;
@@ -486,6 +646,11 @@ nav .nav_container .nav_container_right button:last-child {
   gap: 8px;
   justify-content: space-between;
   align-items: center;
+}
+@media screen and (max-width: 1280px) {
+  #faq .body .question {
+    width: 344px;
+  }
 }
 #faq .body .question span {
   font-weight: 500;
@@ -523,9 +688,11 @@ nav .nav_container .nav_container_right button:last-child {
   letter-spacing: -1px;
   text-align: center;
 }
-#calltoactoion .body button {
-  width: 91px;
-  height: 46px;
+#calltoactoion .body div {
+  display: flex;
+  gap: 16px;
+}
+#calltoactoion .body div button {
   border-radius: 6px;
   padding: 12px 18px;
   font-size: 15px;
@@ -533,5 +700,153 @@ nav .nav_container .nav_container_right button:last-child {
   line-height: 22px;
   text-align: center;
   border: none;
+}
+#calltoactoion .body div button:first-child {
   color: rgb(78, 116, 250);
+}
+#calltoactoion .body div button:last-child {
+  display: none;
+  color: white;
+  background-color: rgb(78, 116, 250);
+}
+@media screen and (max-width: 1280px) {
+  #calltoactoion .body div button:last-child {
+    display: initial;
+  }
+}
+
+footer {
+  padding: 64px 0px;
+  background-color: #151b28;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 1280px) {
+  footer {
+    padding: 40px 32px;
+  }
+}
+footer .container_footer {
+  padding: 0px 32px;
+  display: flex;
+  gap: 64px;
+  flex-direction: column;
+}
+@media screen and (max-width: 1280px) {
+  footer .container_footer {
+    padding: 0;
+    gap: 32px;
+  }
+}
+footer .container_footer .horizontal_container {
+  display: flex;
+  width: 1216px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 40px;
+}
+@media screen and (max-width: 1280px) {
+  footer .container_footer .horizontal_container {
+    width: 704px;
+  }
+}
+footer .container_footer .horizontal_container .button_container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 309px;
+}
+@media screen and (max-width: 1280px) {
+  footer .container_footer .horizontal_container .button_container {
+    width: 582px;
+  }
+}
+footer .container_footer .horizontal_container .button_container img {
+  width: 160px;
+  height: 40px;
+  filter: brightness(0) invert(1);
+}
+footer .container_footer .horizontal_container .button_container p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  color: rgb(165, 172, 186);
+}
+footer .container_footer .horizontal_container .button_container > div {
+  display: flex;
+}
+footer .container_footer .horizontal_container .button_container > div input {
+  border-radius: 6px 0px 0px 6px;
+  border: 1px solid rgb(46, 53, 69);
+  padding: 12px 16px;
+  background-color: rgb(44, 52, 68);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.1px;
+  color: rgb(165, 172, 186);
+  width: 221px;
+}
+footer .container_footer .horizontal_container .button_container > div input:focus {
+  outline: none !important;
+}
+@media screen and (max-width: 1280px) {
+  footer .container_footer .horizontal_container .button_container > div input {
+    width: 494px;
+  }
+}
+footer .container_footer .horizontal_container .button_container > div button {
+  border-radius: 0px 6px 6px 0px;
+  padding: 12px 18px;
+  background-color: rgb(78, 116, 250);
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+footer .container_footer .horizontal_container .button_container > div button:hover {
+  transform: scaleX(1.1);
+}
+footer .container_footer .horizontal_container .foother_menu {
+  flex-direction: column;
+  display: flex;
+  gap: 12px;
+}
+@media screen and (max-width: 1280px) {
+  footer .container_footer .horizontal_container .foother_menu:nth-child(2) {
+    order: 2;
+  }
+}
+footer .container_footer .horizontal_container .foother_menu h4 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  color: #f9f9f9;
+  margin-bottom: 24px;
+}
+footer .container_footer .horizontal_container .foother_menu a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  color: #a5acba;
+  text-decoration: none;
+}
+footer .container_footer .text {
+  justify-content: space-between;
+  padding: 32px 0px 0px 0px;
+  border-top: 1px solid rgb(46, 53, 69);
+}
+footer .container_footer .text p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  text-align: center;
+  color: rgb(165, 172, 186);
 }

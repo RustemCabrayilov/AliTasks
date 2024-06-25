@@ -1,10 +1,13 @@
 $blue: rgba(67, 126, 247);
 $gray: rgba(39, 45, 55);
 $gray50: rgba(95, 109, 126);
+$gray300: rgba(46, 53, 69);
+$gray600: rgba(44, 52, 68);
 $gray700: rgba(39, 45, 55);
 $gray950: rgba(21, 27, 40);
 $neutral600: rgb(234, 235, 240);
 $neutral700: rgba(218, 224, 230);
+$neutal800: rgba(165, 172, 186);
 $primary600: rgba(78, 116, 250);
 $primary900: rgba(43, 99, 217);
 @mixin headerDescription() {
@@ -29,6 +32,12 @@ body {
 nav {
   padding: 20px 160px;
   border-bottom: 1px solid $neutral600;
+  @media screen and (max-width: 1280px) {
+    padding: 16px;
+  }
+  // @media screen and (max-width: 768px) {
+  //   padding: 16px;
+  // }
   .nav_container {
     padding: 0 32px;
     display: flex;
@@ -39,10 +48,17 @@ nav {
       img {
         width: 160px;
         height: 40px;
+        @media screen and (max-width: 1280px) {
+          width: 128px;
+          height: 32px;
+        }
       }
       .nav_menu {
         display: flex;
         gap: 32px;
+        @media screen and (max-width: 1280px) {
+          display: none;
+        }
         a {
           font-weight: 600;
           font-size: 15px;
@@ -57,6 +73,9 @@ nav {
     .nav_container_right {
       display: flex;
       gap: 6px;
+      @media screen and (max-width: 1280px) {
+        display: none;
+      }
       button {
         padding: 12px 18px;
         border-radius: 6px;
@@ -74,14 +93,30 @@ nav {
         }
       }
     }
+
+    i {
+      display: none;
+      width: 24px;
+      height: 24px;
+      @media screen and (max-width: 1280px) {
+        display: flex;
+        align-items: center;
+      }
+    }
   }
 }
 #welcome {
   padding: 0 160px 64px;
+  @media screen and (max-width: 1280px) {
+    padding: 0;
+  }
   .welcome_container {
     padding: 80px 30px 92px;
     display: flex;
     justify-content: center;
+    @media screen and (max-width: 1280px) {
+      padding: 48px 48px 88px 48px;
+    }
     .text {
       display: flex;
       flex-direction: column;
@@ -148,11 +183,18 @@ nav {
   margin: 64px 0;
   display: flex;
   justify-content: center;
+  @media screen and (max-width: 1280px) {
+    margin: 0;
+  }
   .card_container {
     padding: 0px, 32px;
     display: flex;
-
     gap: 32px;
+    flex-wrap: wrap;
+    @media screen and (max-width: 1280px) {
+      padding: 40px 32px;
+      justify-content: center;
+    }
     .card {
       border-radius: 5px;
       border: 1px solid #eaebf0;
@@ -162,6 +204,9 @@ nav {
       width: 384px;
       height: 466px;
       flex-direction: column;
+      @media screen and (max-width: 1280px) {
+        width: 336px;
+      }
       button {
         border-radius: 6px;
         width: 320px;
@@ -176,6 +221,9 @@ nav {
         align-items: center;
         justify-content: center;
         border: none;
+        @media screen and (max-width: 1280px) {
+          width: 272px;
+        }
       }
       .text {
         display: flex;
@@ -256,10 +304,17 @@ nav {
   gap: 64px;
   flex-direction: column;
   justify-content: center;
+  @media screen and (max-width: 1280px) {
+    padding: 40px 32px;
+    gap: 32px;
+  }
   .header_container {
     padding: 0 32px;
     display: flex;
     justify-content: center;
+    @media screen and (max-width: 1280px) {
+      padding: 0;
+    }
     .header {
       width: 800px;
       height: 80px;
@@ -268,6 +323,9 @@ nav {
       flex-direction: column;
       justify-content: center;
       text-align: center;
+      @media screen and (max-width: 1280px) {
+        width: 704px;
+      }
       h2 {
         font-size: 32px;
         line-height: 40px;
@@ -287,6 +345,10 @@ nav {
     column-gap: 32px;
     flex-wrap: wrap;
     justify-content: center;
+    @media screen and (max-width: 1280px) {
+      padding: 0;
+      row-gap: 48px;
+    }
     .message_card {
       width: 384px;
       height: 182px;
@@ -294,6 +356,9 @@ nav {
       display: flex;
       gap: 16px;
       flex-direction: column;
+      @media screen and (max-width: 1280px) {
+        width: 336px;
+      }
       img {
         height: 48px;
         width: 48px;
@@ -323,6 +388,13 @@ nav {
   gap: 64px;
   padding: 64px 0;
   background-color: $gray950;
+  @media screen and (max-width: 1280px) {
+    padding: 40px 32px;
+    gap: 40px;
+  }
+  @media screen and (max-width: 768px) {
+    overflow-x: scroll;
+  }
   .head_container {
     display: flex;
     justify-content: center;
@@ -332,6 +404,10 @@ nav {
       flex-direction: column;
       text-align: center;
       gap: 16px;
+      @media screen and (max-width: 1280px) {
+        width: 704px;
+        gap: 8px;
+      }
       h2 {
         font-weight: 700;
         color: rgba(249, 249, 249, 1);
@@ -348,6 +424,10 @@ nav {
     padding: 0px 32px;
     width: 1280px;
     color: rgba(249, 249, 249, 1);
+    @media screen and (max-width: 1280px) {
+      padding: 0;
+      width: 768px;
+    }
     table {
       th,
       td {
@@ -356,6 +436,9 @@ nav {
         width: 304px;
         padding: 16px 24px;
         vertical-align: baseline;
+        @media screen and (max-width: 1280px) {
+          width: 250px;
+        }
         i {
           width: 24px;
           height: 24px;
@@ -377,16 +460,27 @@ nav {
 }
 #testimonial {
   padding: 64px 0;
+  @media screen and (max-width: 1280px) {
+    padding: 40px 32px;
+  }
   .testimonial_container {
     padding: 0px 32px;
     display: flex;
     justify-content: center;
+    @media screen and (max-width: 1280px) {
+      padding: 0;
+      height: 464px;
+    }
     .text {
       width: 728px;
       padding: 32px 48px;
       display: flex;
       flex-direction: column;
       gap: 32px;
+      @media screen and (max-width: 1280px) {
+        width: 336px;
+        gap: 16px;
+      }
       .stars {
         img {
           width: 24px;
@@ -399,6 +493,11 @@ nav {
         line-height: 38px;
         letter-spacing: -1%;
         color: $gray700;
+        @media screen and (max-width: 1280px) {
+          font-size: 22px;
+          line-height: 30px;
+          font-weight: 600;
+        }
       }
       p {
         @include headerDescription();
@@ -429,6 +528,10 @@ nav {
       width: 488px;
       height: 368px;
       border-radius: 10px;
+      @media screen and (max-width: 1280px) {
+        width: 336px;
+        height: 464px;
+      }
       img {
         width: 100%;
         height: 100%;
@@ -441,11 +544,17 @@ nav {
   display: flex;
   gap: 64px;
   flex-direction: column;
+  @media screen and (max-width: 1280px) {
+    padding: 40px 32px;
+  }
   .head_container {
     padding: 0px 32px;
     display: flex;
     justify-content: center;
     text-align: center;
+    @media screen and (max-width: 1280px) {
+      padding: 0;
+    }
     .head {
       display: flex;
       gap: 16px;
@@ -470,7 +579,7 @@ nav {
     justify-content: center;
     .question {
       width: 632px;
-      height: 48px;
+      min-height: 48px;
       border-radius: 6px;
       border: 1px solid $neutral700;
       padding: 12px 24px;
@@ -478,6 +587,9 @@ nav {
       gap: 8px;
       justify-content: space-between;
       align-items: center;
+      @media screen and (max-width: 1280px) {
+        width: 344px;
+      }
       span {
         font-weight: 500;
         font-size: 16px;
@@ -514,17 +626,156 @@ nav {
       letter-spacing: -1px;
       text-align: center;
     }
-    button {
-      width: 91px;
-      height: 46px;
-      border-radius: 6px;
-      padding: 12px 18px;
-      font-size: 15px;
-      font-weight: 600;
-      line-height: 22px;
-      text-align: center;
-      border: none;
-      color: $primary600;
+    div {
+      display: flex;
+      gap: 16px;
+      button {
+        border-radius: 6px;
+        padding: 12px 18px;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 22px;
+        text-align: center;
+        border: none;
+        &:first-child {
+          color: $primary600;
+        }
+        &:last-child {
+          display: none;
+          color: white;
+          background-color: $primary600;
+          @media screen and (max-width: 1280px) {
+            display: initial;
+          }
+        }
+      }
+    }
+  }
+}
+
+footer {
+  padding: 64px 0px;
+  background-color: #151b28;
+  display: flex;
+  justify-content: center;
+  @media screen and (max-width: 1280px) {
+    padding: 40px 32px;
+  }
+  .container_footer {
+    padding: 0px 32px;
+    display: flex;
+    gap: 64px;
+    flex-direction: column;
+    @media screen and (max-width: 1280px) {
+      padding: 0;
+      gap: 32px;
+    }
+    .horizontal_container {
+      display: flex;
+      width: 1216px;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      row-gap: 40px;
+      @media screen and (max-width: 1280px) {
+        width: 704px;
+      }
+      .button_container {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        width: 309px;
+        @media screen and (max-width: 1280px) {
+          width: 582px;
+        }
+        img {
+          width: 160px;
+          height: 40px;
+          filter: brightness(0) invert(1);
+        }
+        p {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: -0.1px;
+          color: $neutal800;
+        }
+        & > div {
+          display: flex;
+          input {
+            border-radius: 6px 0px 0px 6px;
+            border: 1px solid $gray300;
+            padding: 12px 16px;
+            background-color: $gray600;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 22px;
+            letter-spacing: -0.1px;
+            color: $neutal800;
+            width: 221px;
+            &:focus {
+              outline: none !important;
+            }
+            @media screen and (max-width: 1280px) {
+              width: 494px;
+            }
+          }
+          button {
+            border-radius: 0px 6px 6px 0px;
+            padding: 12px 18px;
+            background-color: $primary600;
+            border: none;
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 22px;
+            color: white;
+            transition: 0.5s;
+            cursor: pointer;
+            &:hover {
+              transform: scaleX(1.1);
+            }
+          }
+        }
+      }
+      .foother_menu {
+        flex-direction: column;
+        display: flex;
+        gap: 12px;
+        @media screen and (max-width: 1280px) {
+          &:nth-child(2) {
+            order: 2;
+          }
+        }
+        h4 {
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: -0.1px;
+          color: #f9f9f9;
+          margin-bottom: 24px;
+        }
+        a {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: -0.1px;
+          color: #a5acba;
+          text-decoration: none;
+        }
+      }
+    }
+    .text {
+      justify-content: space-between;
+      padding: 32px 0px 0px 0px;
+      border-top: 1px solid $gray300;
+
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.1px;
+        text-align: center;
+        color: $neutal800;
+      }
     }
   }
 }
