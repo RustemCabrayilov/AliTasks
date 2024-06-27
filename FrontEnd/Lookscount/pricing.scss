@@ -28,20 +28,19 @@ body {
     display: none;
   }
 }
-
 nav {
   padding: 20px 160px;
   border-bottom: 1px solid $neutral600;
   @media screen and (max-width: 1280px) {
     padding: 16px;
   }
-  // @media screen and (max-width: 768px) {
-  //   padding: 16px;
-  // }
   .nav_container {
     padding: 0 32px;
     display: flex;
     justify-content: space-between;
+    @media screen and (max-width: 768px) {
+      padding: 0;
+    }
     .nav_container_left {
       display: flex;
       gap: 64px;
@@ -93,7 +92,6 @@ nav {
         }
       }
     }
-
     i {
       display: none;
       width: 24px;
@@ -110,6 +108,7 @@ nav {
   @media screen and (max-width: 1280px) {
     padding: 0;
   }
+
   .welcome_container {
     padding: 80px 30px 92px;
     display: flex;
@@ -117,12 +116,18 @@ nav {
     @media screen and (max-width: 1280px) {
       padding: 48px 48px 88px 48px;
     }
+    @media screen and (max-width: 768px) {
+      padding: 32px 16px 40px 16px;
+    }
     .text {
       display: flex;
       flex-direction: column;
       width: 640px;
       gap: 16px;
       text-align: center;
+      @media screen and (max-width: 768px) {
+        gap: 32px;
+      }
       .discount {
         font-weight: 600;
         font-size: 14px;
@@ -137,13 +142,18 @@ nav {
         letter-spacing: -1%;
         color: $gray;
         margin-bottom: 8px;
+        @media screen and (max-width: 768px) {
+          font-weight: 600;
+          font-size: 36px;
+          line-height: 44px;
+          letter-spacing: -2%;
+        }
       }
       .info {
         font-weight: 400;
         font-size: 18px;
         line-height: 26px;
         letter-spacing: -0.1px;
-        color: $gray50;
       }
     }
   }
@@ -160,6 +170,10 @@ nav {
     padding: 4px;
     gap: 6px;
     background-color: rgb(247, 247, 248);
+    @media screen and (max-width: 768px) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
     button {
       padding: 9px 18px;
       border-radius: 5px;
@@ -176,6 +190,9 @@ nav {
         background-color: transparent;
         color: $gray50;
       }
+      @media screen and (max-width: 768px) {
+        width: 164.5px;
+      }
     }
   }
 }
@@ -187,7 +204,7 @@ nav {
     margin: 0;
   }
   .card_container {
-    padding: 0px, 32px;
+    padding: 0px 32px;
     display: flex;
     gap: 32px;
     flex-wrap: wrap;
@@ -195,6 +212,10 @@ nav {
       padding: 40px 32px;
       justify-content: center;
     }
+    @media screen and (max-width: 768px) {
+      padding: 32px 16px;
+    }
+
     .card {
       border-radius: 5px;
       border: 1px solid #eaebf0;
@@ -207,6 +228,11 @@ nav {
       @media screen and (max-width: 1280px) {
         width: 336px;
       }
+      @media screen and (max-width: 768px) {
+        width: 343px;
+        padding: 24px;
+      }
+
       button {
         border-radius: 6px;
         width: 320px;
@@ -223,6 +249,9 @@ nav {
         border: none;
         @media screen and (max-width: 1280px) {
           width: 272px;
+        }
+        @media screen and (max-width: 768px) {
+          width: 295px;
         }
       }
       .text {
@@ -394,6 +423,8 @@ nav {
   }
   @media screen and (max-width: 768px) {
     overflow-x: scroll;
+    padding: 32px 16px;
+    gap: 24px;
   }
   .head_container {
     display: flex;
@@ -408,6 +439,12 @@ nav {
         width: 704px;
         gap: 8px;
       }
+      @media screen and (max-width: 768px) {
+        width: 343px;
+        display: flex;
+        justify-content: center;
+      }
+
       h2 {
         font-weight: 700;
         color: rgba(249, 249, 249, 1);
@@ -427,6 +464,13 @@ nav {
     @media screen and (max-width: 1280px) {
       padding: 0;
       width: 768px;
+    }
+    @media screen and (max-width: 768px) {
+      width: 304px;
+      gap: 8px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
     table {
       th,
@@ -463,6 +507,9 @@ nav {
   @media screen and (max-width: 1280px) {
     padding: 40px 32px;
   }
+  @media screen and (max-width: 768px) {
+    padding: 32px 16px;
+  }
   .testimonial_container {
     padding: 0px 32px;
     display: flex;
@@ -470,6 +517,11 @@ nav {
     @media screen and (max-width: 1280px) {
       padding: 0;
       height: 464px;
+    }
+    @media screen and (max-width: 768px) {
+      height: 641px;
+      flex-direction: column;
+      align-items: center;
     }
     .text {
       width: 728px;
@@ -480,6 +532,9 @@ nav {
       @media screen and (max-width: 1280px) {
         width: 336px;
         gap: 16px;
+      }
+      @media screen and (max-width: 768px) {
+        text-align: center;
       }
       .stars {
         img {
@@ -498,6 +553,11 @@ nav {
           line-height: 30px;
           font-weight: 600;
         }
+        @media screen and (max-width: 768px) {
+          font-size: 20px;
+          line-height: 28px;
+          letter-spacing: -2%;
+        }
       }
       p {
         @include headerDescription();
@@ -505,6 +565,9 @@ nav {
       .buttons {
         display: flex;
         gap: 8px;
+        @media screen and (max-width: 768px) {
+          display: none;
+        }
         button {
           border-radius: 6px;
           padding: 12px;
@@ -532,6 +595,11 @@ nav {
         width: 336px;
         height: 464px;
       }
+      @media screen and (max-width: 768px) {
+        width: 343px;
+        height: 409px;
+        order: -1;
+      }
       img {
         width: 100%;
         height: 100%;
@@ -555,17 +623,26 @@ nav {
     @media screen and (max-width: 1280px) {
       padding: 0;
     }
+
     .head {
       display: flex;
       gap: 16px;
       flex-direction: column;
       width: 800px;
+      @media screen and (max-width: 768px) {
+        align-items: center;
+      }
       h2 {
         font-weight: 700;
         font-size: 32px;
         line-height: 40px;
         letter-spacing: -2%;
         color: $gray700;
+        @media screen and (max-width: 768px) {
+          height: 80px;
+          width: 343px;
+          align-items: center;
+        }
       }
       p {
         @include headerDescription();
@@ -611,6 +688,9 @@ nav {
   background-color: $primary900;
   display: flex;
   justify-content: center;
+  @media screen and (max-width: 768px) {
+    padding: 32px 16px;
+  }
   .body {
     width: 600px;
     height: 162px;
@@ -619,16 +699,31 @@ nav {
     gap: 32px;
     flex-direction: column;
     color: white;
+    @media screen and (max-width: 768px) {
+      gap: 8px;
+      width: 343px;
+      height: 270px;
+    }
     h3 {
       font-weight: 600;
       font-size: 32px;
       line-height: 42px;
       letter-spacing: -1px;
       text-align: center;
+      @media screen and (max-width: 768px) {
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 36px;
+        letter-spacing: -2%;
+      }
     }
     div {
       display: flex;
       gap: 16px;
+      @media screen and (max-width: 768px) {
+        width: 343px;
+        flex-direction: column;
+      }
       button {
         border-radius: 6px;
         padding: 12px 18px;
@@ -637,6 +732,7 @@ nav {
         line-height: 22px;
         text-align: center;
         border: none;
+
         &:first-child {
           color: $primary600;
         }
@@ -652,6 +748,7 @@ nav {
     }
   }
 }
+
 footer {
   padding: 64px 0px;
   background-color: #151b28;
@@ -659,6 +756,9 @@ footer {
   justify-content: center;
   @media screen and (max-width: 1280px) {
     padding: 40px 32px;
+  }
+  @media screen and (max-width: 768px) {
+    padding: 32px 16px;
   }
   .container_footer {
     padding: 0px 32px;
@@ -669,6 +769,10 @@ footer {
       padding: 0;
       gap: 32px;
     }
+    @media screen and (max-width: 768px) {
+      padding: 0;
+      gap: 24px;
+    }
     .horizontal_container {
       display: flex;
       width: 1216px;
@@ -678,6 +782,10 @@ footer {
       @media screen and (max-width: 1280px) {
         width: 704px;
       }
+      @media screen and (max-width: 768px) {
+        gap: 40px;
+        width: 343px;
+      }
       .button_container {
         display: flex;
         flex-direction: column;
@@ -685,6 +793,9 @@ footer {
         width: 309px;
         @media screen and (max-width: 1280px) {
           width: 582px;
+        }
+        @media screen and (max-width: 768px) {
+          width: 343px;
         }
         img {
           width: 160px;
@@ -717,6 +828,9 @@ footer {
             @media screen and (max-width: 1280px) {
               width: 494px;
             }
+            @media screen and (max-width: 768px) {
+              width: 255px;
+            }
           }
           button {
             border-radius: 0px 6px 6px 0px;
@@ -744,6 +858,9 @@ footer {
             order: 2;
           }
         }
+        @media screen and (max-width: 768px) {
+          width: 139.5px;
+        }
         h4 {
           font-weight: 600;
           font-size: 16px;
@@ -766,7 +883,6 @@ footer {
       justify-content: space-between;
       padding: 32px 0px 0px 0px;
       border-top: 1px solid $gray300;
-
       p {
         font-weight: 400;
         font-size: 16px;
