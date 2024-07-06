@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      #hiddenText {
+        display: none;
+      }
+      #changeDisplay,
+      #removeEvent {
+        background-color: cadetblue;
+        padding: 12px 18px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        font-weight: 700;
+        cursor: pointer;
+      }
+      .showDisplay {
+        display: block !important;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <button id="changeColor">Change color</button>
+
+    html attributu ile
+    <button id="changeColortoRed" onclick="alert('Salam Ali')">
+      Change color to red
+    </button>
+
+    <input type="button" value="Clickle" onclick="alert(this.value)" />
+
+    <a id="googleLink" href="https://www.google.az/">Google</a> -->
+
+    <button id="changeDisplay">Show Hidden Text</button>
+
+    <button id="removeEvent" style="background-color: red">Remove event</button>
+
+    <p id="hiddenText">
+      Salam,bugun necesen? Bizimle oturdugun yerden 20 manat qazanmaq
+      istiyirsen?
+    </p>
+    <button id="btnKeys">Click me with Alt, Shift, Ctrl pressed</button>
+    <p id="messageKeys"></p>
+    <p id="message"></p>
+
+    <input type="text" id="testInput" />
+    <div style="height: 1500px; width: 200px">aa</div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
