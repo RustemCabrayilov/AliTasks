@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      td,
+      th {
+        padding: 5px 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Register">
+      <h1>Register</h1>
+      <form action="" id="register_form">
+        <input placeholder="Email" form="email" type="email" id="email" />
+        <input placeholder="Password" type="password" id="password" />
+        <input
+          placeholder="Confirm password"
+          type="password"
+          id="Confirmpassword"
+        />
+        <button>register</button>
+      </form>
+    </div>
+    <div class="container" style="margin: 10px">
+      <table border="1" style="border-collapse: collapse">
+        <thead>
+          <tr>
+            <th>Email</th>
+            <th>Password</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <div class="Login">
+      <h1>Log in</h1>
+      <form action="" id="login_form">
+        <input placeholder="Email" form="email" type="email" id="login_email" />
+        <input placeholder="Password" type="password" id="password_email" />
+        <button>Login</button>
+      </form>
+      <h3 id="info"></h3>
+    </div>
+  </body>
+  <script src="./app.js"></script>
+</html>
