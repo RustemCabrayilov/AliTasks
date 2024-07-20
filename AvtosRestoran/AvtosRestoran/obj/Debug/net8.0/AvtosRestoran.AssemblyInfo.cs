@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AvtosRestoran")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1921324794427871792c20d8d20a7fdc77844995")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e4e8397d663d4d1cc5d38f1ac84fb18852335f49")]
 [assembly: System.Reflection.AssemblyProductAttribute("AvtosRestoran")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AvtosRestoran")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

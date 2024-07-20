@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      td,
+      th {
+        padding: 5px 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Register">
+      <form action="" id="register_form">
+        <input placeholder="Company Name" type="text" id="companyname" />
+        <input placeholder="Contact Name" type="text" id="contactname" />
+        <input placeholder="Contact Title" type="text" id="contacttitle" />
+        <button>edit</button>
+        <button id="addbtn">add</button>
+      </form>
+    </div>
+    <div class="container" style="margin: 10px">
+      <table border="1" style="border-collapse: collapse">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Company Name</th>
+            <th>Contact Name</th>
+            <th>Contact Title</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

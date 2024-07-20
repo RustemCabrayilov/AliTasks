@@ -1,7 +1,16 @@
+using AvtosRestoran.Context;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<AvtosDbContext>(opt =>
+{
+    opt.UseSqlServer("Server=DESKTOP-NIJAT;Database=AftosApp;Trusted_Connection=True;Encrypt=False;MultipleActiveResultSets=true");
+});
+
 
 var app = builder.Build();
 
