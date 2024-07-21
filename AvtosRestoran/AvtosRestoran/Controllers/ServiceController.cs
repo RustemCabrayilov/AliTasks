@@ -6,12 +6,10 @@ namespace AvtosRestoran.Controllers
     public class ServiceController : Controller
     {
         private readonly AvtosDbContext _context;
-
         public ServiceController(AvtosDbContext context)
         {
             _context = context;
         }
-
         public IActionResult Index()
         {
             var services = _context.Services.ToList();

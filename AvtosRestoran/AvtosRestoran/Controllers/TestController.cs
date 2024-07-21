@@ -1,5 +1,7 @@
 ﻿using AvtosRestoran.Context;
 using AvtosRestoran.Models;
+using AvtosRestoran.Repositories.Abstractions;
+using AvtosRestoran.Repositories.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -7,14 +9,14 @@ namespace AvtosRestoran.Controllers
 {
     public class TestController : Controller
     {
-        private readonly AvtosDbContext _context;
+        private readonly IRepository<Service> repository;
 
-        public TestController(AvtosDbContext context)
+        public TestController(IRepository<Service> repository)
         {
-            _context = context;
+            this.repository = repository;
         }
 
-        public IActionResult Ali()
+        public async Task<IActionResult> Ali()
         {
             //List<Service> services = new List<Service>()
             //{
@@ -71,7 +73,68 @@ namespace AvtosRestoran.Controllers
             //_context.Services.AddRange(services);
 
             //_context.SaveChanges();
-            return Ok();
+
+            //Service service = new()
+            //{
+            //    Id = Guid.NewGuid(),
+            //    Title = "Test",
+            //    Icon = "Test",
+            //    Description = "Test",
+            //    CreateAt = DateTime.Now,
+            //};
+
+            //List<Service> services = new()
+            //{
+
+            //   new()
+            //    {
+            //        Id = Guid.NewGuid(),
+            //        Title = "Test",
+            //         Icon =  "Test",
+            //        Description = "Test",
+            //        CreateAt = DateTime.Now,
+            //    },
+            //    new()
+            //    {
+            //        Id = Guid.NewGuid(),
+            //        Title = "Test",
+            //         Icon =  "Test",
+            //        Description = "Test",
+            //        CreateAt = DateTime.Now,
+            //    }
+            //};
+
+            //await repository.AddAsync(service);
+            //await repository.SaveAsync();
+
+            //var removedService = await repository.GetAsync(s => s.Title == "Test");
+
+            //bool result = repository.Delete(removedService);
+
+            //await repository.SaveAsync();
+
+
+            //await repository.AddRangeAsync(services);
+
+            //Service? updatedService = await repository.GetAsync(s=>s.Title == "Test");
+            //updatedService.Title = "UpdatedTest";
+
+            //repository.Update(updatedService);
+
+            //var removedServices=  await repository.GetAllAsync(s => s.Description == "Test");
+            // repository.DeleteRange(removedServices);
+
+            // var result = await repository.SaveAsync();
+
+            //ViewBag Controllerdan View a data transferi ucun istifade olunur.Bununla Model transfer etmek olmur . Meselen string ,int ,bool ve s novlerde data gondere bilersen
+            ViewBag.Name2 = "Nijat";
+
+            ViewData["Name"] = "Ali";
+
+            Console.WriteLine(TempData["test"]);
+
+
+            return View();
         }
         //[ActionName("Salam")]
         //[NonAction]
