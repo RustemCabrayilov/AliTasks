@@ -1,0 +1,30 @@
+﻿@model List<Service>
+
+<div class="container-fluid">
+    <table class="table" style="text-align:center">
+        <thead>
+            <tr>
+                <th scope="col">Title</th>
+                <th scope="col">Description</th>
+                <th scope="col">Icon</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Title</td>
+                    <td>
+                        @{
+                            var text = item.Description.Length > 70 ? item.Description.Substring(0, 70) : item.Description;
+                        }@text...
+                    </td>
+                    <td><i class="fa fa-1x @item.Icon text-primary"></i></td>
+                    <td><i style="color:orange;font-size:18px;" class="fas fa-brush"></i></td>
+                    <td><i style="color:red;font-size:18px;" class="fas fa-trash"></i></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a asp-action="Add" asp-controller="Service" class="btn btn-secondary w-100">Add Service</a>
+</div>

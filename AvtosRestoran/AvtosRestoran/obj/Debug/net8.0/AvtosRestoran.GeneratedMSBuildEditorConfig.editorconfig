@@ -22,12 +22,16 @@ build_property.EnableComHosting =
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\Nijat\OneDrive\Desktop\Ali\AvtosRestoran\AvtosRestoran
 build_property._RazorSourceGeneratorDebug = 
 
 [C:/Users/Nijat/OneDrive/Desktop/Ali/AvtosRestoran/AvtosRestoran/Areas/Admin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nijat/OneDrive/Desktop/Ali/AvtosRestoran/AvtosRestoran/Areas/Admin/Views/Service/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2VydmljZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Nijat/OneDrive/Desktop/Ali/AvtosRestoran/AvtosRestoran/Areas/Admin/Views/Shared/_Layout.cshtml]

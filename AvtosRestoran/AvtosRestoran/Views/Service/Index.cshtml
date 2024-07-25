@@ -33,7 +33,11 @@
                         <div class="p-4">
                             <i class="fa fa-3x @service.Icon text-primary mb-4"></i>
                             <h5>@service.Title</h5>
-                            <p>@service.Description.Substring(0, 70)...</p>
+                            <p>
+                                @{
+                                    var text = service.Description.Length > 70 ? service.Description.Substring(0, 70) : service.Description;
+                                }@text...
+                            </p>
                         </div>
                     </div>
                 </div>

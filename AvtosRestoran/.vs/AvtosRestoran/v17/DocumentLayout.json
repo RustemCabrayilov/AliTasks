@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\AvtosRestoran\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6EFE7B4B-463D-49A5-BFEC-C344833F3944}|AvtosRestoran\\AvtosRestoran.csproj|c:\\users\\nijat\\onedrive\\desktop\\ali\\avtosrestoran\\avtosrestoran\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EFE7B4B-463D-49A5-BFEC-C344833F3944}|AvtosRestoran\\AvtosRestoran.csproj|solutionrelative:avtosrestoran\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6EFE7B4B-463D-49A5-BFEC-C344833F3944}|AvtosRestoran\\AvtosRestoran.csproj|c:\\users\\nijat\\onedrive\\desktop\\ali\\avtosrestoran\\avtosrestoran\\areas\\admin\\views\\service\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6EFE7B4B-463D-49A5-BFEC-C344833F3944}|AvtosRestoran\\AvtosRestoran.csproj|solutionrelative:avtosrestoran\\areas\\admin\\views\\service\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6EFE7B4B-463D-49A5-BFEC-C344833F3944}|AvtosRestoran\\AvtosRestoran.csproj|c:\\users\\nijat\\onedrive\\desktop\\ali\\avtosrestoran\\avtosrestoran\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6EFE7B4B-463D-49A5-BFEC-C344833F3944}|AvtosRestoran\\AvtosRestoran.csproj|solutionrelative:avtosrestoran\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6EFE7B4B-463D-49A5-BFEC-C344833F3944}|AvtosRestoran\\AvtosRestoran.csproj|c:\\users\\nijat\\onedrive\\desktop\\ali\\avtosrestoran\\avtosrestoran\\areas\\admin\\views\\service\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6EFE7B4B-463D-49A5-BFEC-C344833F3944}|AvtosRestoran\\AvtosRestoran.csproj|solutionrelative:avtosrestoran\\areas\\admin\\views\\service\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6EFE7B4B-463D-49A5-BFEC-C344833F3944}|AvtosRestoran\\AvtosRestoran.csproj|c:\\users\\nijat\\onedrive\\desktop\\ali\\avtosrestoran\\avtosrestoran\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EFE7B4B-463D-49A5-BFEC-C344833F3944}|AvtosRestoran\\AvtosRestoran.csproj|solutionrelative:avtosrestoran\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EFE7B4B-463D-49A5-BFEC-C344833F3944}|AvtosRestoran\\AvtosRestoran.csproj|c:\\users\\nijat\\onedrive\\desktop\\ali\\avtosrestoran\\avtosrestoran\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6EFE7B4B-463D-49A5-BFEC-C344833F3944}|AvtosRestoran\\AvtosRestoran.csproj|solutionrelative:avtosrestoran\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6EFE7B4B-463D-49A5-BFEC-C344833F3944}|AvtosRestoran\\AvtosRestoran.csproj|c:\\users\\nijat\\onedrive\\desktop\\ali\\avtosrestoran\\avtosrestoran\\areas\\admin\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EFE7B4B-463D-49A5-BFEC-C344833F3944}|AvtosRestoran\\AvtosRestoran.csproj|solutionrelative:avtosrestoran\\areas\\admin\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6EFE7B4B-463D-49A5-BFEC-C344833F3944}|AvtosRestoran\\AvtosRestoran.csproj|c:\\users\\nijat\\onedrive\\desktop\\ali\\avtosrestoran\\avtosrestoran\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6EFE7B4B-463D-49A5-BFEC-C344833F3944}|AvtosRestoran\\AvtosRestoran.csproj|solutionrelative:avtosrestoran\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EFE7B4B-463D-49A5-BFEC-C344833F3944}|AvtosRestoran\\AvtosRestoran.csproj|c:\\users\\nijat\\onedrive\\desktop\\ali\\avtosrestoran\\avtosrestoran\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EFE7B4B-463D-49A5-BFEC-C344833F3944}|AvtosRestoran\\AvtosRestoran.csproj|solutionrelative:avtosrestoran\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,21 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\AvtosRestoran\\AvtosRestoran\\Views\\Contact\\Index.cshtml",
-              "RelativeDocumentMoniker": "AvtosRestoran\\Views\\Contact\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\AvtosRestoran\\AvtosRestoran\\Views\\Contact\\Index.cshtml",
-              "RelativeToolTip": "AvtosRestoran\\Views\\Contact\\Index.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAACgAAADOAQAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-21T06:58:17.269Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -59,66 +38,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ContactController.cs",
-              "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\AvtosRestoran\\AvtosRestoran\\Controllers\\ContactController.cs",
-              "RelativeDocumentMoniker": "AvtosRestoran\\Controllers\\ContactController.cs",
-              "ToolTip": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\AvtosRestoran\\AvtosRestoran\\Controllers\\ContactController.cs",
-              "RelativeToolTip": "AvtosRestoran\\Controllers\\ContactController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T06:58:12.397Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\AvtosRestoran\\AvtosRestoran\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "AvtosRestoran\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\AvtosRestoran\\AvtosRestoran\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "AvtosRestoran\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-21T06:56:20.836Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\AvtosRestoran\\AvtosRestoran\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "AvtosRestoran\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\AvtosRestoran\\AvtosRestoran\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "AvtosRestoran\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-21T06:40:14.972Z",
+              "WhenOpened": "2024-07-25T17:58:25.24Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\AvtosRestoran\\AvtosRestoran\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "AvtosRestoran\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\AvtosRestoran\\AvtosRestoran\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "AvtosRestoran\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T06:39:22.086Z"
+              "DocumentIndex": 0,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\AvtosRestoran\\AvtosRestoran\\Areas\\Admin\\Views\\Service\\Add.cshtml",
+              "RelativeDocumentMoniker": "AvtosRestoran\\Areas\\Admin\\Views\\Service\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\AvtosRestoran\\AvtosRestoran\\Areas\\Admin\\Views\\Service\\Add.cshtml",
+              "RelativeToolTip": "AvtosRestoran\\Areas\\Admin\\Views\\Service\\Add.cshtml",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAYwCMAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-25T17:47:27.119Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\AvtosRestoran\\AvtosRestoran\\Program.cs",
-              "RelativeDocumentMoniker": "AvtosRestoran\\Program.cs",
-              "ToolTip": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\AvtosRestoran\\AvtosRestoran\\Program.cs",
-              "RelativeToolTip": "AvtosRestoran\\Program.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAAADIAAAAlAAAA",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\AvtosRestoran\\AvtosRestoran\\Areas\\Admin\\Views\\Service\\Index.cshtml",
+              "RelativeDocumentMoniker": "AvtosRestoran\\Areas\\Admin\\Views\\Service\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\AvtosRestoran\\AvtosRestoran\\Areas\\Admin\\Views\\Service\\Index.cshtml",
+              "RelativeToolTip": "AvtosRestoran\\Areas\\Admin\\Views\\Service\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-25T17:46:28.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServiceController.cs",
+              "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\AvtosRestoran\\AvtosRestoran\\Areas\\Admin\\Controllers\\ServiceController.cs",
+              "RelativeDocumentMoniker": "AvtosRestoran\\Areas\\Admin\\Controllers\\ServiceController.cs",
+              "ToolTip": "C:\\Users\\Nijat\\OneDrive\\Desktop\\Ali\\AvtosRestoran\\AvtosRestoran\\Areas\\Admin\\Controllers\\ServiceController.cs",
+              "RelativeToolTip": "AvtosRestoran\\Areas\\Admin\\Controllers\\ServiceController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwB4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T06:34:22.278Z",
+              "WhenOpened": "2024-07-25T17:46:05.838Z",
               "EditorCaption": ""
             }
           ]
