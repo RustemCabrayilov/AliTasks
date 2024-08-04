@@ -1,0 +1,42 @@
+﻿@model Service
+<div class="container-fluid mt-3">
+    <form method="post">
+        <div class="form-group mb-3">
+            <label asp-for="@Model.Title" class="form-label">Title</label>
+            <input type="text" class="form-control" asp-for="@Model.Title">
+        </div>
+        <div class="form-group mb-3">
+            <label asp-for="@Model.Description" class="form-label">Description</label>
+            <input type="text" class="form-control" asp-for="@Model.Description">
+        </div>
+        <div class="form-group mb-3">
+            <label asp-for="@Model.Icon" class="form-label">Icon</label>
+
+            <div class="form-check">
+                <input class="form-check-input" type="radio" asp-for="@Model.Icon" value="fa-user-tie">
+                <label class="form-check-label" for="exampleRadios1">
+                    <i class="fa fa-1x fa-user-tie text-primary"></i>
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" asp-for="@Model.Icon" value="fa-utensils">
+                <label class="form-check-label" for="exampleRadios2">
+                    <i class="fa fa-1x fa-utensils text-primary"></i>
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" asp-for="@Model.Icon" value="fa-cart-plus">
+                <label class="form-check-label" for="exampleRadios1">
+                    <i class="fa fa-1x fa-cart-plus text-primary"></i>
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" asp-for="@Model.Icon" value="fa-headset">
+                <label class="form-check-label" for="exampleRadios1">
+                    <i class="fa fa-1x fa-headset text-primary"></i>
+                </label>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Update Service</button>
+    </form>
+</div>

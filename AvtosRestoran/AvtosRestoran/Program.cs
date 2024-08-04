@@ -15,7 +15,15 @@ builder.Services.AddDbContext<AvtosDbContext>(opt =>
     opt.UseSqlServer("Server=DESKTOP-NIJAT;Database=AftosApp;Trusted_Connection=True;Encrypt=False;MultipleActiveResultSets=true");
 });
 
-builder.Services.AddScoped<IRepository<Service>, Repository<Service>>();
+//AddScoped - Hemin scope daxilinde instance yaradir
+//AddTransient - Her bir requestden yeni instance yaradir
+//AddSingleton - Yalniz 1 defe instance yaradir
+
+builder.Services.AddScoped<IChefRepository, ChefRepository>();
+builder.Services.AddScoped<IMenuCategoryRepository, MenuCategoryRepository>();
+builder.Services.AddScoped<IMenuItemRepository, MenuItemRepository>();
+builder.Services.AddScoped<IServiceRepository, ServiceRepository>();
+builder.Services.AddScoped<ISliderRepository, SliderRepository>();
 
 
 var app = builder.Build();

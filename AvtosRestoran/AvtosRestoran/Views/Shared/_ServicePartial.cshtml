@@ -1,0 +1,27 @@
+﻿@model List<Service>
+@{
+    double second = 0.1;
+}
+
+@foreach (var service in Model)
+{
+    var secondT = second + "s";
+    <div class="col-lg-3 col-sm-6 wow fadeInUp" style="height:240px" data-wow-delay="@secondT">
+        <div class="service-item rounded pt-3 h-100">
+            <div class="p-4">
+                <i class="fa fa-3x @service.Icon text-primary mb-4"></i>
+                <h5>@service.Title</h5>
+                <p>
+                    @{
+                        var text = service.Description.Length > 70 ? service.Description.Substring(0, 70) : service.Description;
+                    }@text...
+                </p>
+            </div>
+        </div>
+    </div>
+    if (second == 0.7)
+        second = 0.1;
+    else
+        second += 0.2;
+
+}

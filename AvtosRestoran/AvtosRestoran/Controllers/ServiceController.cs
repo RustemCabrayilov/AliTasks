@@ -1,18 +1,23 @@
 ﻿using AvtosRestoran.Context;
+using AvtosRestoran.Models;
+using AvtosRestoran.Repositories.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace AvtosRestoran.Controllers
 {
     public class ServiceController : Controller
     {
-        private readonly AvtosDbContext _context;
-        public ServiceController(AvtosDbContext context)
+        private readonly IServiceRepository _repository;
+
+        public ServiceController(IServiceRepository repository)
         {
-            _context = context;
+            _repository = repository;
         }
-        public IActionResult Index()
+
+        public async Task<IActionResult> Index()
         {
-            var services = _context.Services.ToList();
+           var services = await (await _repository.GetAllAsync(x=>!x.IsDeleted)).ToListAsync();
             return View(services);
         }
         public IActionResult Booking()

@@ -8,9 +8,9 @@ namespace AvtosRestoran.Areas.Admin.Controllers
     [Area("Admin")]
     public class ServiceController : Controller
     {
-        private readonly IRepository<Service> _serviceRepo;
+        private readonly IServiceRepository _serviceRepo;
 
-        public ServiceController(IRepository<Service> serviceRepo)
+        public ServiceController(IServiceRepository serviceRepo)
         {
             _serviceRepo = serviceRepo;
         }
@@ -30,6 +30,44 @@ namespace AvtosRestoran.Areas.Admin.Controllers
         public async Task<IActionResult> Add(Service service)
         {
             await _serviceRepo.AddAsync(service);
+            await _serviceRepo.SaveAsync();
+            return RedirectToAction("Index");
+        }
+        [HttpGet]
+        public async Task<IActionResult> Update(string id)
+        {
+            var entity = await _serviceRepo.GetAsync(x => x.Id.ToString() == id && !x.IsDeleted);
+            if (entity is null)
+            {
+                return NotFound();
+            }
+            return View(entity);    
+        }
+        public async Task<IActionResult> Update(string id,Service service)
+        {
+            var entity = await _serviceRepo.GetAsync(x => x.Id.ToString() == id && !x.IsDeleted);
+            if (entity is null)
+            {
+                return NotFound();
+            }
+            entity.Title = service.Title;
+            entity.Description = service.Description;
+            entity.Icon = service.Icon;
+            _serviceRepo.Update(entity);
+            await _serviceRepo.SaveAsync();
+
+            return RedirectToAction("Index");
+        }
+
+        public async Task<IActionResult> Delete(string id)
+        {
+            var entity = await _serviceRepo.GetAsync(x => x.Id.ToString() == id && !x.IsDeleted);
+            if (entity is null)
+            {
+                return NotFound();
+            }
+            entity.IsDeleted = true;
+            _serviceRepo.Update(entity);
             await _serviceRepo.SaveAsync();
             return RedirectToAction("Index");
         }

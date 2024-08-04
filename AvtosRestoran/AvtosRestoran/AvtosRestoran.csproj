@@ -7,11 +7,29 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Areas\Admin\Views\Slider\Add.cshtml" />
+    <Content Remove="Areas\Admin\Views\Slider\Update.cshtml" />
+    <Content Remove="Areas\Admin\Views\MenuItem\Add.cshtml" />
+    <Content Remove="Areas\Admin\Views\MenuItem\Update.cshtml" />
+    <Content Remove="Areas\Admin\Views\Chef\Add.cshtml" />
+    <Content Remove="Areas\Admin\Views\Chef\Update.cshtml" />
+    <Content Remove="Areas\Admin\Views\MenuCategory\Add.cshtml" />
+    <Content Remove="Areas\Admin\Views\MenuCategory\Update.cshtml" />
     <Content Remove="Areas\Admin\Views\Service\Add.cshtml" />
+    <Content Remove="Areas\Admin\Views\Service\Update.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Areas\Admin\Views\Slider\Add.cshtml" />
+    <None Include="Areas\Admin\Views\Slider\Update.cshtml" />
+    <None Include="Areas\Admin\Views\MenuItem\Add.cshtml" />
+    <None Include="Areas\Admin\Views\MenuItem\Update.cshtml" />
+    <None Include="Areas\Admin\Views\Chef\Add.cshtml" />
+    <None Include="Areas\Admin\Views\Chef\Update.cshtml" />
+    <None Include="Areas\Admin\Views\MenuCategory\Add.cshtml" />
+    <None Include="Areas\Admin\Views\MenuCategory\Update.cshtml" />
     <None Include="Areas\Admin\Views\Service\Add.cshtml" />
+    <None Include="Areas\Admin\Views\Service\Update.cshtml" />
     <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
     <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
     <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map" />
@@ -67,7 +85,9 @@
 
   <ItemGroup>
     <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
+    <Folder Include="wwwroot\Images\Chefs\" />
+    <Folder Include="wwwroot\Images\MenuItems\" />
+    <Folder Include="wwwroot\Images\Sliders\" />
     <Folder Include="wwwroot\lib\bootstrap\" />
     <Folder Include="wwwroot\lib\bootstrap\dist\js\" />
     <Folder Include="wwwroot\lib\jquery-validation-unobtrusive\" />
@@ -83,6 +103,11 @@
 
   <ItemGroup>
     <_ContentIncludedByDefault Remove="Areas\Admin\Views\Service\Add.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\Admin\Views\Service\Update.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Areas\Admin\Views\Service\Update.cshtml" />
   </ItemGroup>
 
 </Project>

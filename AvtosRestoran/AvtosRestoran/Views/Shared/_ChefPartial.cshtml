@@ -1,0 +1,27 @@
+﻿@model List<Chef>
+@{
+    double second = 0.1;
+}
+
+@foreach (var chef in Model)
+{
+    var secondT = second + "s";
+    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="@secondT">
+        <div class="team-item text-center rounded overflow-hidden">
+            <div class="rounded-circle overflow-hidden m-4">
+                <img style="width:260px; height:260px;" class="img-fluid" src="~/Images/Chefs/@chef.ImageUrl" alt="">
+            </div>
+            <h5 class="mb-0">@chef.Name @chef.Surname</h5>
+            <small>@chef.Position</small>
+            <div class="d-flex justify-content-center mt-3">
+                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    if (second == 0.7)
+        second = 0.1;
+    else
+        second += 0.2;
+}
